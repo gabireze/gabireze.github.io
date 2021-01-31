@@ -16,7 +16,7 @@ Fev. 2021 - Atual
 
 **Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/daitan-group/" target="_blank">Daitan Group</a>
 
-Jun. 2019 - Fev. 2021
+Jun. 2019 - Jan. 2021
 
 **Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/superopabrasil/" target="_blank">SuperOpa</a> e <a href="https://www.linkedin.com/company/opa-tech/" target="_blank">OpaBox</a>
 
