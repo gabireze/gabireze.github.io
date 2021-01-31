@@ -1,0 +1,21 @@
+title: Gabriel de Rezende Gonçalves
+url: "https://gabireze.com.br"
+baseurl: ""
+
+markdown: kramdown
+
+footer: yes
+footer_url: "https://github.com/ankitsultana"
+footer_text: "Page design by Ankit Sultana"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "Sobre mim"
+   link: "/"
+ - name: "LinkedIn"
+   link: "https://linkedin.com/in/gabireze/"
+ - name: "Contato"
+   link: "contato"
