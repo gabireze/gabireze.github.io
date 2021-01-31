@@ -26,7 +26,6 @@ Desenvolvimento Fullstack em Flutter e Javascript baseado em componentização d
 
 ## Formação acadêmica
 
-
 **Pontifícia Universidade Católica de Campinas**
 
 Bacharelado, Engenharia de Software

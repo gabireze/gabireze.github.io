@@ -2,6 +2,8 @@ title: Gabriel de Rezende Gonçalves
 # url: "https://gabireze.com.br"
 baseurl: ""
 
+favicon: "favicon.ico"
+
 markdown: kramdown
 
 footer: yes
