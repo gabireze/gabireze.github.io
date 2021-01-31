@@ -41,6 +41,15 @@ Técnico Integrado ao Ensino Médio, Informática
 
 ---
 
+## Habilidades interpessoais
+
+- Criatividade, Persuasão, Colaboração, Adaptabilidade, Gestão do Tempo
+- Organização de grupos, Negociação de soluções, Empatia, Sensibilidade social
+- Autoconhecimento emocional, Controle emocional, Automotivação
+- Reconhecimento de emoções em outras pessoas, Habilidade em relacionamentos interpessoais
+
+---
+
 ## Habilidades técnicas
 
 - JavaScript, Dart, C, Java, SQL, NoSQL, PHP, HTML5, CSS3, Node.js
