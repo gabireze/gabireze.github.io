@@ -61,3 +61,29 @@ Técnico Integrado ao Ensino Médio, Informática
 - Amazon DynamoDB, AWS Lambda, S3, CloudFront, API Gateway, CloudWatch, SQS
 
 - MySQL, Git, Jira, Trello, Figma, Postman, Slack, SCRUM, Kanban
+
+---
+
+## Contribua com o meio ambiente
+
+Os recursos naturais do planeta são finitos e sofrem ameaça de escassez. Ações concretas e imediatas são essenciais e dependem da sua doação. Escolha uma das ONGs abaixo, que enfrentam diariamente a batalha para salvar nosso planeta, e faça já sua doação.
+
+- <a href="https://www.sosma.org.br/doacao/" target="_blank">Fundação SOS Mata Atlântica</a>
+  
+A SOS Mata Atlântica atua há 30 anos na proteção da Mata Atlântica, que abriga mais de 72% dos brasileiros. A ONG realiza projetos em áreas como monitoramento e restauração da Mata Atlântica, proteção do mar e da costa, políticas públicas e melhorias das leis ambientais, educação ambiental e campanhas e apoio a unidades de conservação.
+
+- <a href="https://www.sospantanal.org.br/doacoes/" target="_blank">Instituto SOS Pantanal</a>
+  
+Com representantes dos diversos setores da sociedade pantaneira o SOS Pantanal surge em um momento especial, em que a necessidade da gestão do conhecimento e do diálogo intersetorial são fundamentais para a conservação da biodiversidade e dos recursos naturais do planeta. Esta nova proposta chega para somar com outras iniciativas da região, com o intuito de tornar-se uma ferramenta fundamental na facilitação do diálogo.
+
+- <a href="https://oncafari.org/doe-agora/" target="_blank">Projeto Onçafari</a>
+  
+Trabalhamos pela proteção das onças-pintadas no Pantanal sul-mato-grossense e iniciamos atividades em Mogi Guaçu, no interior de São Paulo, para a preservação dos lobos-guará.
+
+O Onçafari atua e três frentes principais:
+
+1. Onçafari Ecotourism: trabalha para habituar animais (mantê-los totalmente selvagens e livres, sem que se sintam ameaçados), como a onça-pintada e o lobo-guará, à presença dos veículos da equipe. À medida que os animais deixam de fugir na presença dos carros, não veem mais pesquisadores e visitantes como ameaça. A partir daí, é possível desenvolver o ecoturismo na região.
+   
+2. Onçafari Science: tem por objetivos monitorar a saúde dos animais que o projeto preserva e estudar seus comportamentos, fisiologia e ecologia, aumentando o conhecimento científico sobre a espécie e potencializando sua proteção.
+   
+3. Onçafari Rewild: reintroduz em seu habitat natural filhotes de onças-pintadas resgatados.
