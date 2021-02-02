@@ -31,6 +31,6 @@ E-mail: [contato@gabireze.com.br](mailto:contato@gabireze.com.br)
 
 ## Termos e Condições
 
-- [Política de Privacidade]({{site.url}}/ssspolitica-de-privacidade)
+- [Política de Privacidade]({{site.url}}/politica-de-privacidade)
 - [Termos de Uso]({{site.url}}/termos-de-uso)
 - [Declaração de Cookies]({{site.url}}/cookies)
