@@ -26,3 +26,11 @@ E-mail: [contato@gabireze.com.br](mailto:contato@gabireze.com.br)
 - PIX: contato@gabireze.com.br
 - BTC: 1KStjYJLpVYxkDBmeTVv9cTP58Nh3ZaD1r
 - ETH: 0xe1950f77a1298639e36588dac173ee785b38b14f
+
+---
+
+## Termos e Condições
+
+- [Política de Privacidade]({{site.url}}/ssspolitica-de-privacidade)
+- [Termos de Uso]({{site.url}}/termos-de-uso)
+- [Declaração de Cookies]({{site.url}}/cookies)
