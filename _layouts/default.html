@@ -12,66 +12,55 @@
     </script>
     <script data-ad-client="ca-pub-2445896450211975" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <title>{{ site.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="blog, accent, {{ site.author }}, {{ site.title }}, jekyll">
-    <meta name="author" content="{{ site.author }}">
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="https://gabireze.com.br">
-    <meta property="og:title" content="Gabriel de Rezende Gonçalves">
-    <meta property="og:site_name" content="Gabriel de Rezende Gonçalves">
-    <meta property="og:description"
-        content="Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.">
-    <meta property="og:image" content="https://gabireze.com.br/user.jpg">
-    <meta property="og:image:alt" content="Profile image of Gabriel de Rezende Gonçalves"/>
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="800">
-    <meta property="og:image:height" content="600">
-    <meta property="og:type" content="website">
-    <meta name="author" content="Gabriel de Rezende Gonçalves">
+
+    <!-- Primary Meta Tags -->
+    <title>Gabriel de Rezende Gonçalves</title>
+    <meta name="title" content="Gabriel de Rezende Gonçalves">
     <meta name="description"
         content="Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.">
     <meta name="keywords"
-        content="dev, desenvolvedor, desenvolvimento, flutter, js, javascript, apis, web services, node.js, aws, cv, curriculum, currículo, estágio">
+        content="dev, desenvolvedor, desenvolvimento, flutter, js, javascript, apis, web services, node.js, aws, cv, curriculum, currículo, estágio, Gabriel de Rezende Gonçalves">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gabriel de Rezende Gonçalves">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gabireze.com.br">
+    <meta property="og:title" content="Gabriel de Rezende Gonçalves">
+    <meta property="og:description"
+        content="Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.">
+    <meta property="og:site_name" content="Gabriel de Rezende Gonçalves">
+    <meta property="og:image" content="https://gabireze.com.br/user.jpg">
+    <meta property="og:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gabireze.com.br/">
+    <meta name="twitter:site" content="mestreyu">
+    <meta name="twitter:creator" content="mestreyu">
+    <meta property="twitter:title" content="Gabriel de Rezende Gonçalves">
+    <meta property="twitter:description"
+        content="Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.">
+    <meta name="twitter:image" content="https://gabireze.com.br/user.jpg">
+    <meta property="twitter:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
+
     {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
     {% endif %}
-    {% if page.description %}
-    {% assign desc = page.description %}
-    {% else %}
-    {% assign desc = site.description %}
-    {% endif %}
-    {% if page.url %}
-    {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% else %}
-    {% assign url = site.url | append: site.baseurl | append: page.url %}
-    {% endif %}
+
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
     {% if site.favicon %}
     <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
     <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
     {% endif %}
-    {% if site.twitter_username %}
-    <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
-    {% endif %}
-    <!-- Facebook Open Graph -->
-    {% if site.facebook_id %}
-    <meta name="fb:admins" content="{{ site.facebook_id }}">
-    {% endif %}
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="mestreyu">
-    <meta name="twitter:creator" content="mestreyu">
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta name="twitter:description"
-        content="Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.">
-    <meta name="twitter:url" content="{{ url }}">
-    <meta name="twitter:image" content="https://gabireze.com.br/user.jpg">
-    <meta property="twitter:image:alt" content="Profile image of Gabriel de Rezende Gonçalves"/>
-
 </head>
 
 <body>
@@ -106,7 +95,10 @@
                 {% if site.footer == true %}
                 <hr />
                 <p style="text-align: center; margin-bottom: 10px">
-                    <small>Design da página por <a href="https://github.com/ankitsultana" target="_blank" style="color: black">@ankitsultana</a> com modificações por <a href="https://github.com/gabireze" target="_blank" style="color: black">@gabireze</a></small> 
+                    <small>Design da página por <a href="https://github.com/ankitsultana" target="_blank"
+                            style="color: black">@ankitsultana</a> com modificações por <a
+                            href="https://github.com/gabireze" target="_blank"
+                            style="color: black">@gabireze</a></small>
                 </p><br />
                 {% endif %}
             </div>
