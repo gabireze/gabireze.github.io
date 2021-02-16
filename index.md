@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="user.jpg">
 
-Olá, bem-vindo ao meu site! Sou desenvolvedor, tenho 19 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.
+Olá, bem-vindo ao meu site! Sou desenvolvedor, tenho 20 anos e estou cursando o quinto semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas.
 
 ---
 
