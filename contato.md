@@ -11,7 +11,7 @@ E-mail: [contato@gabireze.com.br](mailto:contato@gabireze.com.br)
 
 1. <a href="https://linkedin.com/in/gabireze" target="_blank">LinkedIn</a>
 2. <a href="https://github.com/gabireze" target="_blank">GitHub</a>
-3. <a href="https://twitter.com/mestreyu" target="_blank">Twitter</a>
+3. <a href="https://twitter.com/gabireze_" target="_blank">Twitter</a>
 4. <a href="https://gabireze.medium.com/" target="_blank">Medium</a>
 5. <a href="https://www.instagram.com/gabireze" target="_blank">Instagram</a>
 6. <a href="https://www.twitch.tv/gabireze" target="_blank">Twitch</a>
