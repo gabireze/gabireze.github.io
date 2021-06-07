@@ -16,6 +16,8 @@ Fev. 2021 - Atual
 
 **Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/daitan-group/" target="_blank">Daitan Group</a>
 
+Acompanhamento supervisionado de desenvolvimento de sistemas; Acompanhamento supervisionado de emissão de relatórios; Acompanhamento supervisionado na manutenção de sistemas ou programas; Participar em treinamentos técnicos e comportamentais.
+
 Jun. 2019 - Jan. 2021
 
 **Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/superopabrasil/" target="_blank">SuperOpa</a> e <a href="https://www.linkedin.com/company/opa-tech/" target="_blank">OpaBox</a>
