@@ -12,7 +12,11 @@ Olá, bem-vindo ao meu site! Sou desenvolvedor, tenho 20 anos e estou cursando o
 
 ## Experiências
 
-Fev. 2021 - Atual
+Jul. 2021 - Atual
+
+**Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/encorainc/" target="_blank">Encora Digital Inc</a>
+
+Fev. 2021 - Jun. 2021
 
 **Estagiário em Engenharia de Software** @ <a href="https://www.linkedin.com/company/daitan-group/" target="_blank">Daitan Group</a>
 
