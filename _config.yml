@@ -15,8 +15,10 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Sobre mim"
+ - name: "Português"
    link: "/"
+ - name: "English"
+   link: "english"
  - name: "LinkedIn"
    link: "https://linkedin.com/in/gabireze/"
  - name: "Contato"

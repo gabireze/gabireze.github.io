@@ -111,11 +111,9 @@
         </div>
         <div style="clear:both"></div>
         <hr>
-        {% if page.is_contact == true %}
+
         <div class="container content contact">
-            {% else %}
             <div class="container content">
-                {% endif %}
                 {{ content }}
                 {% if site.footer == true %}
                 <hr />
@@ -125,15 +123,11 @@
                             href="https://github.com/gabireze" target="_blank"
                             style="color: black">@gabireze</a></small>
                 </p><br />
+                {% else %}
+                <br>
                 {% endif %}
             </div>
         </div>
 </body>
 <footer>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
-<script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="gabireze"
-    data-description="Apoie-me no Buy me a coffee!"
-    data-message="Obrigado pela visita. Agora você pode me comprar um café!" data-color="#FFDD00" data-position="Right"
-    data-x_margin="18" data-y_margin="18"></script>
