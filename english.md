@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="user.png">
 
-My name is Gabriel de Rezende Gonçalves, Brazilian, I'm 20 years old, I live in Campinas/SP, computer technician, attending the seventh semester in Software Engineering at the Pontifical Catholic University of Campinas and intern in Software Engineering at Daitan Group.
+My name is Gabriel de Rezende Gonçalves, Brazilian, I'm 21 years old, I live in Campinas/SP, computer technician, attending the seventh semester in Software Engineering at the Pontifical Catholic University of Campinas and intern in Software Engineering at Daitan Group.
 <a style="" href="resume.pdf" download="Gabriel de Rezende Gonçalves - Resume">(Download resume)</a>
 
 ---

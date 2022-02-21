@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="user.png">
 
-Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 20 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.
+Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.
 <a style="" href="curriculo.pdf" download="Gabriel de Rezende Gonçalves - Currículo">(Baixar currículo)</a>
 
 ---
