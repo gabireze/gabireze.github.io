@@ -2,23 +2,28 @@
 layout: default
 ---
 
-## Resumo 
+## Resumo
 
 <img class="profile-picture" src="user.png">
 
-Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.
+Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o oitavo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas e estagiário em Engenharia de Software na Encora.
 <a style="" href="curriculo.pdf" download="Gabriel de Rezende Gonçalves - Currículo">(Baixar currículo)</a>
 
 ---
 
 ## Experiências
 
-
-**Estagiário em Engenharia de Software** em <a href="https://www.linkedin.com/company/daitan-group/" target="_blank">Daitan Group</a>
+**Estagiário em Engenharia de Software** em <a href="https://www.encora.com/" target="_blank">Encora</a>
 
 Fev. 2021 – Atual
 
 Acompanhamento supervisionado de desenvolvimento de sistemas; Acompanhamento supervisionado de emissão de relatórios; Acompanhamento supervisionado na manutenção de sistemas ou programas; Participar em treinamentos técnicos e comportamentais.
+
+**Intercâmbio** em <a href="https://canada-english.com/pt/smrt-english-esl" target="_blank">Canadian College of English Language - CCEL</a>
+
+Jul. 2022 – Vancouver, Canadá
+
+English 125 (Nível de Inglês B2 - Intermediário Avançado); 38 aulas semanais; Classe Básica + 2 Eletivas.
 
 **Estagiário em Engenharia de Software** em <a href="https://www.linkedin.com/company/superopabrasil/" target="_blank">SuperOpa</a> e <a href="https://www.linkedin.com/company/opa-tech/" target="_blank">OpaBox</a>
 
@@ -36,11 +41,21 @@ Bacharelado, Engenharia de Software
 
 2019 – 2022
 
-**ETEC Bento Quirino** 
+**ETEC Bento Quirino**
 
 Técnico Integrado ao Ensino Médio, Informática
 
 2016 – 2018
+
+---
+
+## Idiomas
+
+**Inglês** - Avançado
+
+**Espanhol** - Técnico / Básico
+
+**Português** - Fluente / Nativo
 
 ---
 
@@ -65,9 +80,6 @@ Técnico Integrado ao Ensino Médio, Informática
 ## Habilidades interpessoais
 
 - Criatividade, Persuasão, Colaboração, Adaptabilidade, Gestão do Tempo
-  
 - Organização de grupos, Negociação de soluções, Empatia, Sensibilidade social
-  
 - Autoconhecimento emocional, Controle emocional, Automotivação
-  
 - Reconhecimento de emoções em outras pessoas, Habilidade em relacionamentos interpessoais
