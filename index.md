@@ -45,20 +45,10 @@ Participa ativamente em projetos de desenvolvimento, escrevendo código e contri
 
 Bacharelado em Engenharia, Engenharia de Software · (2019 - 2022)
 
-**ETEC Bento Quirino**
+**Escola Técnica Estadual "Bento Quirino"**
 
 Técnico Integrado ao Ensino Médio, Informática · (janeiro de 2016 - dezembro
 de 2018)
-
----
-
-## Informações adicionais
-
-**Intercâmbio** em <a href="https://canada-english.com/pt/smrt-english-esl" target="_blank">Canadian College of English Language - CCEL</a>
-
-Julho de 2022 – Vancouver, Canadá
-
-English 125 (Nível de Inglês B2 - Intermediário Avançado); 38 aulas semanais; Classe Básica + 2 Eletivas.
 
 ---
 
@@ -72,23 +62,42 @@ English 125 (Nível de Inglês B2 - Intermediário Avançado); 38 aulas semanais
 
 ---
 
+## Informações adicionais
+
+**Intercâmbio** em <a href="https://canada-english.com/pt/smrt-english-esl" target="_blank">Canadian College of English Language - CCEL</a>
+
+Julho de 2022 – Vancouver, Canadá
+
+English 125 (Nível de Inglês B2 - Intermediário Avançado); 38 aulas semanais; Classe Básica + 2 Eletivas.
+
+---
+
 ## Habilidades técnicas
 
 - HTML, CSS, JavaScript, Dart, C, Java, PHP, Laravel
--  React, Flutter, Vue.js, AngularJS, Bootstrap
+
+- React, Flutter, Vue.js, AngularJS, Bootstrap
+
 - Node.js, Express.js, Serverless Framework
+
 - MongoDB, MySQL, PostgreSQL
+
 - npm, Git, Swagger, Docker, Jira, Trello, Figma, Postman, Slack, SCRUM,
-Kanban, Mailtrap, Form.io, Zeplin
+  Kanban, Mailtrap, Form.io, Zaplin
+
 - Visual Studio Code, Android Studio, Linux, macOS, Windows, Linux
+
 - Firebase, AWS, Amazon DynamoDB, AWS Lambda, S3, CloudFront, AP
-Gateway, CloudWatch, SQS
+  Gateway, CloudWatch, SQS
 
 ---
 
 ## Habilidades interpessoais
 
 - Criatividade, Persuasão, Colaboração, Adaptabilidade, Gestão do Tempo
+
 - Organização de grupos, Negociação de soluções, Empatia, Sensibilidade social
+
 - Autoconhecimento emocional, Controle emocional, Automotivação
+
 - Reconhecimento de emoções em outras pessoas, Habilidade em relacionamentos interpessoais
