@@ -11,15 +11,17 @@ footer_url: "https://github.com/ankitsultana"
 footer_text: "Page design by Ankit Sultana"
 
 sass:
-    style: compressed
-    sass_dir: _sass
+  style: compressed
+  sass_dir: _sass
 
 nav:
- - name: "Português"
-   link: "/"
- - name: "English"
-   link: "english"
- - name: "LinkedIn"
-   link: "https://linkedin.com/in/gabireze/"
- - name: "Contato"
-   link: "contato"
+  - name: "Português"
+    link: "/"
+  - name: "English"
+    link: "english"
+  - name: "LinkedIn"
+    link: "https://linkedin.com/in/gabireze/"
+  - name: "Contato"
+    link: "contato"
+
+include: [".well-known"]
