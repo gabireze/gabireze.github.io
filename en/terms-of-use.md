@@ -2,7 +2,9 @@
 layout: default
 ---
 
-## Privacy Policy
+## Terms of Use
+
+Para versão em Português, [clique aqui](/termos-de-uso).
 
 Your privacy is important to us. It is Gabriel de Rezende Gonçalves's policy to respect your privacy regarding any information we may collect from you across our website, [Gabriel de Rezende Gonçalves](https://gabireze.com.br/), and other sites we own and operate.
 
