@@ -4,15 +4,15 @@
   </h1>
   <nav>
     <ul id="navlist" class="alignable pull-right navbar-ul">
-      {% for item in site.nav %}
+      {% if page.lang == "pt-br" %} {% for item in site.nav.portuguese %}
       <li class="alignable pull-left nav-list">
-        {% if page.url contains "/en/" %}
-        <a href="{{ item.link_en }}">{{ item.name_en }}</a>
-        {% else %}
-        <a href="{{ item.link_pt }}">{{ item.name_pt }}</a>
-        {% endif %}
+        <a href="{{ item.link }}">{{ item.title }}</a>
       </li>
-      {% endfor %}
+      {% endfor %} {% else %} {% for item in site.nav.english %}
+      <li class="alignable pull-left nav-list">
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      </li>
+      {% endfor %} {% endif %}
     </ul>
   </nav>
 </header>

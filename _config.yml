@@ -35,25 +35,25 @@ about_me:
 
 experiences:
   portuguese:
-    - title: Assistente de desenvolvimento de software
+    - title: Desenvolvedor de Software Junior
       company: Encora Inc.
       company_link: https://www.linkedin.com/company/encorainc/
       date: Janeiro de 2023 - Atualmente
       description: Escrever código de acordo com as especificações do projeto; Realizar testes de software para garantir a qualidade e a integridade do código; Depurar problemas no código e corrigi-los; Manter a documentação técnica atualizada; Acompanhar o progresso do projeto e informar aos gerentes de projeto; Colaborar com os desenvolvedores de software em equipe para garantir que o projeto seja concluído de maneira eficiente e eficaz.
 
-    - title: Estagiário de desenvolvimento de software
+    - title: Estagiário de Desenvolvimento de Software
       company: Encora Inc.
       company_link: https://www.linkedin.com/company/encorainc/
       date: Fevereiro de 2021 - Janeiro de 2023
       description: Aprender sobre as linguagens de programação e as ferramentas utilizadas no desenvolvimento de software; Auxiliar os desenvolvedores de software na escrita de código, na realização de testes e na depuração de problemas; Participar de reuniões técnicas e apresentações; Manter a documentação técnica atualizada; Acompanhar o progresso do projeto e informar aos gerentes de projeto.
 
-    - title: Estagiário de desenvolvimento de software
+    - title: Estagiário de Desenvolvimento de Software
       company: SuperOpa
       company_link: https://www.linkedin.com/company/superopabrasil/
       date: Junho de 2019 - Fevereiro de 2021
       description: Trabalhar ativamente em projetos de codificação e contribuir para a criação de aplicativos e sistemas. Verificar e corrigir problemas no software para garantir a qualidade final do produto, colaborar com a equipe de desenvolvimento para assegurar que os projetos sejam de acordo com os padrões e boas práticas de desenvolvimento, familiarizar-se com novas tecnologias e desenvolva suas habilidades de programação enquanto trabalha em projetos reais. Participar de reuniões e comunicar-se com outros departamentos da empresa, incluindo gerenciamento de projetos, design e vendas.
 
-    - title: Estagiário de desenvolvimento de software
+    - title: Estagiário de Desenvolvimento de Software
       company: OpaBox
       date: Junho de 2019 - Fevereiro de 2021
       description: Participa ativamente em projetos de desenvolvimento, escrevendo código e contribuindo para a construção de aplicativos e sistemas, é responsável por testar e depurar software para garantir a qualidade do produto final, colabora com a equipe de desenvolvimento para garantir que os projetos estejam em conformidade com os padrões e boas práticas de desenvolvimento, tem a oportunidade de aprender novas tecnologias e desenvolver habilidades de programação enquanto trabalha em projetos reais, e participa de reuniões com outros departamentos da empresa.
@@ -75,13 +75,13 @@ experiences:
       company: SuperOpa
       company_link: https://www.linkedin.com/company/superopabrasil/
       date: June 2019 - February 2021
-      description: Actively participate in development projects by writing code and contributing to the construction of apps and systems; Responsible for testing and debugging software to ensure the final product's quality; Collaborate with the development team to ensure that projects comply with standards and good development practices; Learn new technologies and develop programming skills while working on real projects; Attend meetings with other company departments.
+      description: Actively work on coding projects and contribute to creating apps and systems. Check and fix software issues to ensure the final product's quality, collaborate with the development team to ensure that projects comply with standards and good development practices, familiarize yourself with new technologies, and develop your programming skills while working on real projects. Meet and communicate with other company departments, including project management, design, and sales.
 
     - title: Software Development Intern
       company: OpaBox
       company_link: https://www.linkedin.com/company/opa-tech/
       date: June 2019 - February 2021
-      description: Actively work on coding projects and contribute to creating apps and systems; Check and fix software issues to ensure the final product's quality; Collaborate with the development team to ensure that projects comply with standards and good development practices; Familiarize yourself with new technologies and develop programming skills while working on real projects; Attend meetings and communicate with other company departments, including project management, design, and sales.
+      description: Actively participates in development projects by writing code and contributing to the construction of apps and systems, is responsible for testing and debugging software to ensure the final product's quality, collaborates with the development team to ensure that projects comply with standards and good development practices, has the opportunity to learn new technologies and develop programming skills while working on real projects, and attends meetings with other company departments.
 
 education:
   portuguese:
@@ -146,11 +146,11 @@ interpersonal_skills:
 
 academic_exchanges:
   portuguese:
-    - title: Academic Exchanges
+    - title: Intercâmbio
       institution: Canadian College of English Language - CCEL
       institution_link: https://canada-english.com/pt/smrt-english-esl
       date: Julho de 2022
-      location: Vancouver, Canada
+      location: Vancouver, Canadá
       description: English 125 (Nível de Inglês B2 - Intermediário Avançado); 38 aulas semanais; Classe Básica + 2 Eletivas.
 
   english:
@@ -205,20 +205,21 @@ contribution_methods:
     extra: or [https://zbd.gg/gabireze](https://zbd.gg/gabireze){:target="_blank"}
 
 nav:
-  - name_pt: "Português"
-    name_en: "Português"
-    link_pt: "/"
-    link_en: "/"
-  - name_pt: "English"
-    name_en: "English"
-    link_pt: "/en"
-    link_en: "/en"
-  - name_pt: "LinkedIn"
-    name_en: "LinkedIn"
-    link_pt: "https://linkedin.com/in/gabireze/"
-    link_en: "https://linkedin.com/in/gabireze/"
-    link: "https://linkedin.com/in/gabireze/"
-  - name_pt: "Contato"
-    name_en: "Contact"
-    link_pt: "contato"
-    link_en: "contact-information"
+  portuguese:
+    - title: Português
+      link: "/"
+    - title: English
+      link: "/en"
+    - title: LinkedIn
+      link: "https://linkedin.com/in/gabireze/"
+    - title: Contato
+      link: "contato"
+  english:
+    - title: Português
+      link: "/"
+    - title: English
+      link: "/en"
+    - title: LinkedIn
+      link: "https://linkedin.com/in/gabireze/"
+    - title: Contact
+      link: "contact-information"
