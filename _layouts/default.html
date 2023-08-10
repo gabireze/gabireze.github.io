@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html {% if page.url contains "/en/" %}lang="en"{% else %}lang="{{ site.default_lang }}"{% endif %}>
 <head>
 
     <!-- cookiebot.com -->
@@ -42,7 +41,7 @@
     <title>Gabriel de Rezende Gonçalves</title>
     <meta name="title" content="Gabriel de Rezende Gonçalves">
     <meta name="description"
-        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
+        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
     <meta name="keywords"
         content="dev, desenvolvedor, desenvolvimento, flutter, react, js, javascript, apis, web services, node.js, aws, cv, curriculum, currículo, estágio, Gabriel de Rezende Gonçalves">
     <meta charset="utf-8">
@@ -55,9 +54,9 @@
     <meta property="og:url" content="https://gabireze.com.br">
     <meta property="og:title" content="Gabriel de Rezende Gonçalves">
     <meta property="og:description"
-        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
+        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
     <meta property="og:site_name" content="Gabriel de Rezende Gonçalves">
-    <meta property="og:image" content="https://gabireze.com.br/user.png">
+    <meta property="og:image" content="https://gabireze.com.br/assets/img/user.png">
     <meta property="og:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="800">
@@ -70,8 +69,8 @@
     <meta name="twitter:creator" content="gabireze_">
     <meta property="twitter:title" content="Gabriel de Rezende Gonçalves">
     <meta property="twitter:description"
-        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 21 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
-    <meta name="twitter:image" content="https://gabireze.com.br/user.png">
+        content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group.">
+    <meta name="twitter:image" content="https://gabireze.com.br/assets/img/user.png">
     <meta property="twitter:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
 
     {% if page.url == "/404.html" %}
@@ -82,10 +81,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
-    {% if site.favicon %}
     <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
     <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
-    {% endif %}
 </head>
 
 <body>
@@ -96,11 +93,16 @@
             {% endif %}
             <a id="author-name" class="alignable pull-left" href="/">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
-                {% for x in site.nav %}
-                {% if x.name == "LinkedIn" %}
-                <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
+                {% for item in site.nav %}
+                <li class="alignable pull-left nav-list">
+                    {% if page.url contains "/en/" %}
+                        <a href="{{ item.link_en }}">
+                            {{ item.name_en }}
+                        </a>
                     {% else %}
-                <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
+                        <a href="{{ item.link_pt }}">
+                            {{ item.name_pt }}
+                        </a>
                     {% endif %}
                     {% if forloop.last == false %}
                     /
@@ -109,25 +111,21 @@
                 {% endfor %}
             </ul>
         </div>
-        <div style="clear:both"></div>
         <hr>
-
         <div class="container content contact">
             <div class="container content">
                 {{ content }}
-                {% if site.footer == true %}
-                <hr />
+                {% if site.footer %}
+                <hr>
+                <footer>
                 <p style="text-align: center; margin-bottom: 10px">
                     <small>Design da página por <a href="https://github.com/ankitsultana" target="_blank"
                             style="color: black">@ankitsultana</a> com modificações por <a
                             href="https://github.com/gabireze" target="_blank"
                             style="color: black">@gabireze</a></small>
                 </p><br />
-                {% else %}
-                <br>
-                {% endif %}
+            </footer>
+            {% endif %}
             </div>
         </div>
 </body>
-<footer>
-</footer>

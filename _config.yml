@@ -1,27 +1,37 @@
 title: Gabriel de Rezende Gonçalves
-# url: "https://gabireze.com.br"
-baseurl: ""
-
+default_lang: pt-BR
 favicon: "favicon.ico"
 
 markdown: kramdown
-
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer: true
 
 sass:
   style: compressed
   sass_dir: _sass
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 nav:
-  - name: "Português"
-    link: "/"
-  - name: "English"
-    link: "english"
-  - name: "LinkedIn"
+  - name_pt: "Português"
+    name_en: "Português"
+    link_pt: "/"
+    link_en: "/"
+  - name_pt: "English"
+    name_en: "English"
+    link_pt: "/en"
+    link_en: "/en"
+  - name_pt: "LinkedIn"
+    name_en: "LinkedIn"
+    link_pt: "https://linkedin.com/in/gabireze/"
+    link_en: "https://linkedin.com/in/gabireze/"
     link: "https://linkedin.com/in/gabireze/"
-  - name: "Contato"
-    link: "contato"
+  - name_pt: "Contato"
+    name_en: "Contact"
+    link_pt: "contato"
+    link_en: "contact-information"
 
 include: [".well-known"]

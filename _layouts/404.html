@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html {% if page.url contains "/en/" %}lang="en"{% else %}lang="{{ site.default_lang }}"{% endif %}>
+<head>
+  <!-- cookiebot.com -->
+  <script
+    id="Cookiebot"
+    src="https://consent.cookiebot.com/uc.js"
+    data-cbid="d16fdba9-be0f-46d4-98a0-605da80c966f"
+    data-blockingmode="auto"
+    type="text/javascript"
+  ></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VLPFEML755"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-VLPFEML755");
+  </script>
+  <script data-ad-client="ca-pub-2445896450211975" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+    fbq("init", "326047035404298");
+    fbq("track", "PageView");
+  </script>
+  <noscript><img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=326047035404298&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Primary Meta Tags -->
+  <title>Gabriel de Rezende Gonçalves</title>
+  <meta name="title" content="Gabriel de Rezende Gonçalves" />
+  <meta
+    name="description"
+    content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group."
+  />
+  <meta
+    name="keywords"
+    content="dev, desenvolvedor, desenvolvimento, flutter, react, js, javascript, apis, web services, node.js, aws, cv, curriculum, currículo, estágio, Gabriel de Rezende Gonçalves"
+  />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Gabriel de Rezende Gonçalves" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gabireze.com.br" />
+  <meta property="og:title" content="Gabriel de Rezende Gonçalves" />
+  <meta
+    property="og:description"
+    content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group."
+  />/
+  <meta property="og:site_name" content="Gabriel de Rezende Gonçalves" />
+  <meta property="og:image" content="https://gabireze.com.br/assets/img/user.png" />
+  <meta property="og:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="600" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://gabireze.com.br/" />
+  <meta name="twitter:site" content="gabireze_" />
+  <meta name="twitter:creator" content="gabireze_" />
+  <meta property="twitter:title" content="Gabriel de Rezende Gonçalves" />
+  <meta
+    property="twitter:description"
+    content="Meu nome é Gabriel de Rezende Gonçalves, brasileiro, tenho 22 anos, moro em Campinas/SP, técnico em informática, cursando o sétimo semestre em Engenharia de Software na Pontifícia Universidade Católica de Campinas  e estagiário em Engenharia de Software na Daitan Group."
+  />
+  <meta name="twitter:image" content="https://gabireze.com.br/assets/img/user.png" />
+  <meta property="twitter:image:alt" content="Profile image of Gabriel de Rezende Gonçalves" />
+
+  {% if page.url == "/404.html" %}
+  <meta http-equiv="refresh" content="5; url=/" />
+  {% endif %}
+
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+
+  <link rel="icon" type="image/ico" href="{{ site.favicon_location }}" />
+  <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="navbar container">
+      {% if site.ins_logo %}
+      <img id="ins-logo" src="{{ site.ins_logo }}" />
+      {% endif %}
+      <a id="author-name" class="alignable pull-left" href="/">{{ site.title }}</a>
+      <ul id="navlist" class="alignable pull-right navbar-ul">
+        {% for item in site.nav %}
+        <li class="alignable pull-left nav-list">
+          {% if page.url contains "/en/" %}
+          <a href="{{ item.link_en }}"> {{ item.name_en }} </a>
+          {% else %}
+          <a href="{{ item.link_pt }}"> {{ item.name_pt }} </a>
+          {% endif %} {% if forloop.last == false %} / {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <hr />
+    <div class="container content contact"><div class="container" style="text-align: center;"> {{ content }}</div>
+  </div>
+</body>

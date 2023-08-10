@@ -4,10 +4,10 @@ layout: default
 
 ## About me
 
-<img class="profile-picture" src="user.png">
+<img class="profile-picture" src="/assets/img/user.png">
 
-I am Gabriel de Rezende Gonçalves, a 21-year-old software engineer who graduated from Pontifícia Universidade Católica de Campinas and took a technical course in Computer Science at ETEC Bento Quirino. I work as a full-stack developer, with advanced knowledge in languages, frameworks, and technologies such as JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, and Laravel. In addition, I have experience in Flutter for mobile application development.
-<a style="" href="resume.pdf" download="Gabriel de Rezende Gonçalves - Resume">(Download resume)</a>
+I am Gabriel de Rezende Gonçalves, a 22-year-old software engineer who graduated from Pontifícia Universidade Católica de Campinas and took a technical course in Computer Science at ETEC Bento Quirino. I work as a full-stack developer, with advanced knowledge in languages, frameworks, and technologies such as JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, and Laravel. In addition, I have experience in Flutter for mobile application development.
+<a style="" href="/assets/pdf/resume.pdf" download="Gabriel de Rezende Gonçalves - Resume">(Download resume)</a>
 
 ---
 

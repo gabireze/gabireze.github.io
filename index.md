@@ -4,10 +4,10 @@ layout: default
 
 ## Resumo
 
-<img class="profile-picture" src="user.png">
+<img class="profile-picture" src="assets/img/user.png">
 
-Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 21 anos formado pela Pontifícia Universidade Católica de Campinas e curso técnico de Informática na ETEC Bento Quirino. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
-<a style="" href="curriculo.pdf" download="Gabriel de Rezende Gonçalves - Currículo">(Baixar currículo)</a>
+Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 22 anos formado pela Pontifícia Universidade Católica de Campinas e curso técnico de Informática na ETEC Bento Quirino. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
+<a style="" href="/assets/pdf/curriculo.pdf" download="Gabriel de Rezende Gonçalves - Currículo">(Baixar currículo)</a>
 
 ---
 
