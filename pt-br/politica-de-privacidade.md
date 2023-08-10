@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /politica-de-privacidade
+lang: pt-br
 ---
 
 ## Política de Privacidade
@@ -40,6 +41,4 @@ Esperamos que esteja esclarecido e, como mencionado anteriormente, se houver alg
 
 Esta política é efetiva a partir de 9 de Agosto de 2023 às 21:26.
 
-🔒 [Política de Privacidade]({{site.url}}/politica-de-privacidade)
-📄 [Termos de Uso]({{site.url}}/termos-de-uso)
-🍪 [Declaração de Uso de Cookies]({{site.url}}/declaracao-de-cookies)
+{% include terms-and-conditions.md %}

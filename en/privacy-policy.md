@@ -56,6 +56,4 @@ Hopefully, that has clarified things for you. As previously mentioned, if you ar
 
 This policy is effective as of August 9, 2023, at 21:50.
 
-🔒 [Privacy Policy]({{site.url}}/en/privacy-policy)
-📄 [Terms of Use]({{site.url}}/en/terms-of-use)
-🍪 [Cookie Statement]({{site.url}}/en/cookie-statement)
+{% include terms-and-conditions.md %}

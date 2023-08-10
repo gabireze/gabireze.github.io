@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /termos-de-uso
+lang: pt-br
 ---
 
 ## Termos de Uso
@@ -46,6 +47,4 @@ O Gabriel de Rezende Gonçalves pode revisar estes termos de serviço do site a 
 
 Estes termos e condições são regidos e interpretados de acordo com as leis do Gabriel de Rezende Gonçalves, e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.
 
-🔒 [Política de Privacidade]({{site.url}}/politica-de-privacidade)
-📄 [Termos de Uso]({{site.url}}/termos-de-uso)
-🍪 [Declaração de Uso de Cookies]({{site.url}}/declaracao-de-cookies)
+{% include terms-and-conditions.md %}

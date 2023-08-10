@@ -2,6 +2,49 @@ title: Gabriel de Rezende Gonçalves
 default_lang: pt-BR
 favicon: "favicon.ico"
 
+email:
+  english: "hello@gabireze.com.br"
+  portuguese: "contato@gabireze.com.br"
+
+social_medias:
+  - name: LinkedIn
+    link: "https://linkedin.com/in/gabireze"
+    emoji: "🔗"
+  - name: GitHub
+    link: "https://github.com/gabireze"
+    emoji: "🐙"
+  - name: Twitter
+    link: "https://twitter.com/gabireze_"
+    emoji: "🐦"
+  - name: Medium
+    link: "https://gabireze.medium.com/"
+    emoji: "✍️"
+
+contribution_methods:
+  - name: PayPal
+    link: "https://www.paypal.com/donate/?business=S34UMJ23659VY"
+    emoji: "🏦"
+  - name: PicPay
+    link: "https://app.picpay.com/user/gabireze"
+    emoji: "🪙"
+  - name: PIX
+    emoji: "💵"
+    value: contato@gabireze.com.br
+    extra: or [QR Code](https://gabireze.com.br/nubank){:target="_blank"}
+  - name: BTC
+    emoji: "💸"
+    value: "bc1qqqtwl0akq535w3g4z0dgmq8nk0e8tqjtc2gw3x"
+  - name: ETH
+    emoji: "💰"
+    value: "0x954D8a59B21Cf87965D7ADBf115f930DD81C94fB"
+  - name: ERC20 / BSC / Polygon
+    emoji: "🔥"
+    value: "0x93b864efBc8f80cB04EF845BC1E2eB4D76c257bD"
+  - name: Lightning Network
+    emoji: "⚡️"
+    value: lightning@gabireze.com.br
+    extra: or [https://zbd.gg/gabireze](https://zbd.gg/gabireze){:target="_blank"}
+
 markdown: kramdown
 footer: true
 
