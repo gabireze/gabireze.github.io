@@ -1,0 +1,19 @@
+<header class="navbar container">
+  <h1 style="padding: 0px; margin: 0px">
+    <a id="author-name" class="alignable pull-left" href="/">{{ site.title }}</a>
+  </h1>
+  <nav>
+    <ul id="navlist" class="alignable pull-right navbar-ul">
+      {% for item in site.nav %}
+      <li class="alignable pull-left nav-list">
+        {% if page.url contains "/en/" %}
+        <a href="{{ item.link_en }}">{{ item.name_en }}</a>
+        {% else %}
+        <a href="{{ item.link_pt }}">{{ item.name_pt }}</a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
+<hr />
