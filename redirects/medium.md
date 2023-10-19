@@ -1,5 +1,4 @@
 ---
 permalink: /medium
+redirect_to: https://medium.com/@gabireze
 ---
-
-<script>window.location.replace('https://medium.com/@gabireze');</script>

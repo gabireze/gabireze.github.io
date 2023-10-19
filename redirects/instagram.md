@@ -1,5 +1,4 @@
 ---
 permalink: /instagram
+redirect_to: "https://instagram.com/gabireze"
 ---
-
-<script>window.location.replace('https://instagram.com/gabireze');</script>

@@ -1,5 +1,4 @@
 ---
 permalink: /linkedin
+redirect_to: "https://linkedin.com/in/gabireze"
 ---
-
-<script>window.location.replace('https://linkedin.com/in/gabireze');</script>

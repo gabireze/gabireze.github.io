@@ -1,5 +1,4 @@
 ---
 permalink: /picpay
+redirect_to: https://app.picpay.com/user/gabireze
 ---
-
-<script>window.location.replace('https://app.picpay.com/user/gabireze');</script>

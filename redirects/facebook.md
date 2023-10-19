@@ -1,5 +1,4 @@
 ---
 permalink: /facebook
+redirect_to: https://facebook.com.br/gabireze
 ---
-
-<script>window.location.replace('https://facebook.com.br/gabireze');</script>

@@ -1,5 +1,4 @@
 ---
 permalink: /magalu
+redirect_to: https://www.magazinevoce.com.br/magazinegabireze/
 ---
-
-<script>window.location.replace('https://www.magazinevoce.com.br/magazinegabireze/');</script>

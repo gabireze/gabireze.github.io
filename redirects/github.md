@@ -1,5 +1,4 @@
 ---
 permalink: /github
+redirect_to: "https://github.com/gabireze"
 ---
-
-<script>window.location.replace('https://github.com/gabireze');</script>

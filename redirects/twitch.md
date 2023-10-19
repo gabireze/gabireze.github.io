@@ -1,5 +1,4 @@
 ---
 permalink: /twitch
+redirect_to: https://twitch.tv/gabireze
 ---
-
-<script>window.location.replace('https://twitch.tv/gabireze');</script>

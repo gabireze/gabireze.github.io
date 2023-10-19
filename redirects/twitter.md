@@ -1,5 +1,4 @@
 ---
 permalink: /twitter
+redirect_to: https://twitter.com/gabireze_
 ---
-
-<script>window.location.replace('https://twitter.com/gabireze_');</script>

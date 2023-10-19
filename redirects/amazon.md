@@ -1,5 +1,4 @@
 ---
 permalink: /amazon
+redirect_to: "https://amzn.to/35LdVSm"
 ---
-
-<script>window.location.replace('https://amzn.to/35LdVSm');</script>
