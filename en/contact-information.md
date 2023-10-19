@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+title: Contact
 ---
 
 {% include contact-information.md %}

@@ -1,5 +1,7 @@
 ---
 layout: default
+lang: en
+title: Cookie Statement
 ---
 
 ## Cookie Statement

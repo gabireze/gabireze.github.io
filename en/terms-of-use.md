@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+title: Terms of Use
 ---
 
 ## Terms of Use

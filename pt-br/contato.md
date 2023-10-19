@@ -1,8 +1,8 @@
 ---
 layout: default
-is_contact: true
 permalink: /contato
 lang: pt-br
+title: Contato
 ---
 
 {% include contact-information.md %}

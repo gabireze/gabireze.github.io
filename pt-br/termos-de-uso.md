@@ -2,6 +2,7 @@
 layout: default
 permalink: /termos-de-uso
 lang: pt-br
+title: Termos de Uso
 ---
 
 ## Termos de Uso

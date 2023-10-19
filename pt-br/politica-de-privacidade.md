@@ -2,6 +2,7 @@
 layout: default
 permalink: /politica-de-privacidade
 lang: pt-br
+title: Política de Privacidade
 ---
 
 ## Política de Privacidade
