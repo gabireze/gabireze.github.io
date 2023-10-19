@@ -226,3 +226,6 @@ nav:
       target: "_blank"
     - title: Contact
       link: "contact-information"
+
+plugins:
+  - jekyll-redirect-from
