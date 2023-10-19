@@ -20,11 +20,8 @@
 
       gtag("config", "UA-139610091-3");
     </script>
-    {% if page.title %} {% capture full_title %}{{ page.title }} | {{ site.title }}{% endcapture %} {% else %} {% capture full_title %}{{ site.title }}{%
-      endcapture %} {% endif %} 
-      
-    {% if page.description %} {% capture full_description %}{{ page.description }}{% endcapture %} {% else %} {% capture
-    full_description %}{{ site.description }}{% endcapture %} {% endif %}
+    {% assign full_title = page.title | default: site.title %}
+    {% assign full_description = page.description | default: site.description %}
     <!-- Primary Meta Tags -->
     <title>{{ full_title }}</title>
     <meta name="title" content="{{ full_title }}" />

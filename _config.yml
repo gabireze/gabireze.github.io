@@ -225,7 +225,7 @@ nav:
       link: "https://linkedin.com/in/gabireze/"
       target: "_blank"
     - title: Contact
-      link: "contact-information"
+      link: "/en/contact-information"
 
 plugins:
   - jekyll-redirect-from
