@@ -1,10 +1,10 @@
 title: Gabriel de Rezende Gonçalves
 
+author: Gabriel de Rezende Gonçalves
+
 description: I'm Gabriel de Rezende Gonçalves, a software engineer skilled in full-stack development, with expertise in JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, Laravel, and Flutter.
 
 keywords: Gabriel de Rezende Gonçalves, dev, developer, desenvolvedor, software engineer, engenheiro de software, full-stack, full stack, fullstack, JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, Laravel, Flutter
-
-baseurl: ""
 
 url: "https://gabireze.com.br"
 
@@ -55,6 +55,7 @@ experiences:
 
     - title: Estagiário de Desenvolvimento de Software
       company: OpaBox
+      company_link: https://www.linkedin.com/company/opa-tech/
       date: Junho de 2019 - Fevereiro de 2021
       description: Participa ativamente em projetos de desenvolvimento, escrevendo código e contribuindo para a construção de aplicativos e sistemas, é responsável por testar e depurar software para garantir a qualidade do produto final, colabora com a equipe de desenvolvimento para garantir que os projetos estejam em conformidade com os padrões e boas práticas de desenvolvimento, tem a oportunidade de aprender novas tecnologias e desenvolver habilidades de programação enquanto trabalha em projetos reais, e participa de reuniões com outros departamentos da empresa.
 
@@ -212,6 +213,7 @@ nav:
       link: "/en"
     - title: LinkedIn
       link: "https://linkedin.com/in/gabireze/"
+      target: "_blank"
     - title: Contato
       link: "contato"
   english:
@@ -221,5 +223,6 @@ nav:
       link: "/en"
     - title: LinkedIn
       link: "https://linkedin.com/in/gabireze/"
+      target: "_blank"
     - title: Contact
       link: "contact-information"
