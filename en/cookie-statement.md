@@ -2,6 +2,7 @@
 layout: default
 lang: en
 title: Cookie Statement
+description: Cookie Statement.
 ---
 
 ## Cookie Statement

@@ -3,6 +3,7 @@ layout: default
 permalink: /contato
 lang: pt-br
 title: Contato
+description: Entre em contato comigo.
 ---
 
 {% include contact-information.md %}

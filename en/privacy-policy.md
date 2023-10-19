@@ -2,6 +2,7 @@
 layout: default
 lang: en
 title: Privacy Policy
+description: Privacy Policy.
 ---
 
 ## Privacy Policy

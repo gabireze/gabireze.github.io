@@ -3,6 +3,7 @@ layout: default
 permalink: /declaracao-de-cookies
 lang: pt-br
 title: Declaração de Uso de Cookies
+description: Declaração de Uso de Cookies.
 ---
 
 ## Declaração de Uso de Cookies
