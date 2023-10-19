@@ -6,11 +6,11 @@
     <ul id="navlist" class="alignable pull-right navbar-ul">
       {% if page.lang == "pt-br" %} {% for item in site.nav.portuguese %}
       <li class="alignable pull-left nav-list">
-        <a href="{{ item.link }}">{{ item.title }}</a>
+        <a href="{{ item.link }}" target="{{item.target}}">{{ item.title }}</a>
       </li>
       {% endfor %} {% else %} {% for item in site.nav.english %}
       <li class="alignable pull-left nav-list">
-        <a href="{{ item.link }}">{{ item.title }}</a>
+        <a href="{{ item.link }}" target="{{item.target}}">{{ item.title }}</a>
       </li>
       {% endfor %} {% endif %}
     </ul>
