@@ -1,0 +1,8 @@
+Contact: mailto:security@gabireze.com.br
+Expires: 2025-01-01T02:59:00.000Z
+Encryption: https://gabireze.com.br/.well-known/pgp-key.txt
+Preferred-Languages: pt-BR, en
+Canonical: https://gabireze.com.br/.well-known/security.txt
+Policy: https://gabireze.com.br/en/privacy-policy
+Policy: https://gabireze.com.br/en/terms-of-use
+Policy: https://gabireze.com.br/en/cookie-statement
