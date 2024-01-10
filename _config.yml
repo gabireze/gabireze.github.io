@@ -2,9 +2,9 @@ title: Gabriel de Rezende Gonçalves
 
 author: Gabriel de Rezende Gonçalves
 
-description: I'm Gabriel de Rezende Gonçalves, a software engineer skilled in full-stack development, with expertise in JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, Laravel, and Flutter.
+description: I'm Gabriel de Rezende Gonçalves, a software engineer skilled in full-stack development, with expertise in JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, Laravel, and Flutter.
 
-keywords: Gabriel de Rezende Gonçalves, dev, developer, desenvolvedor, software engineer, engenheiro de software, full-stack, full stack, fullstack, JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, Laravel, Flutter
+keywords: Gabriel de Rezende Gonçalves, dev, developer, desenvolvedor, software engineer, engenheiro de software, full-stack, full stack, fullstack, JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, Laravel, Flutter
 
 url: "https://gabireze.com.br"
 
@@ -29,9 +29,9 @@ defaults:
       image: true
 
 about_me:
-  portuguese: Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 22 anos formado pela Pontifícia Universidade Católica de Campinas e curso técnico de Informática na ETEC Bento Quirino. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
+  portuguese: Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 22 anos formado pela Pontifícia Universidade Católica de Campinas. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
 
-  english: I am Gabriel de Rezende Gonçalves, a 22-year-old software engineer who graduated from Pontifícia Universidade Católica de Campinas and took a technical course in Computer Science at ETEC Bento Quirino. I work as a full-stack developer, with advanced knowledge in languages, frameworks, and technologies such as JavaScript, React, Node.js, Vue.js, NoSQL, MySQL, PHP, and Laravel. In addition, I have experience in Flutter for mobile application development.
+  english: I am Gabriel de Rezende Gonçalves, a 22-year-old software engineer graduated from the Pontifical Catholic University of Campinas. I work as a full stack developer, with knowledge in languages, frameworks, and technologies such as JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, and Laravel. Additionally, I have experience in Flutter for mobile application development.
 
 experiences:
   portuguese:
@@ -88,7 +88,7 @@ education:
   portuguese:
     - title: Pontifícia Universidade Católica de Campinas
       degree: Bacharelado em Engenharia, Engenharia de Software
-      date: 2019 - 2022
+      date: 2019 - 2023
 
     - title: Escola Técnica Estadual "Bento Quirino"
       degree: Técnico Integrado ao Ensino Médio, Informática
@@ -97,7 +97,7 @@ education:
   english:
     - title: Pontifícia Universidade Católica de Campinas
       degree: Bachelor of Engineering, Software Engineering
-      date: 2019 - 2022
+      date: 2019 - 2023
     - title: Escola Técnica Estadual "Bento Quirino"
       degree: High School Technical Degree, Computer Science
       date: 2016 - 2018
@@ -125,7 +125,7 @@ languages:
 
 technical_skills:
   - HTML, CSS, JavaScript, Dart, C, Java, PHP, Laravel
-  - React, Flutter, Vue.js, AngularJS, Bootstrap
+  - Vue.js, React, Flutter, AngularJS, Tailwind CSS
   - Node.js, Express.js, Serverless Framework
   - MongoDB, MySQL, PostgreSQL
   - npm, Git, Swagger, Docker, Jira, Trello, Figma, Postman, Slack, SCRUM, Kanban, Mailtrap, Form.io, Zaplin
@@ -173,12 +173,6 @@ social_medias:
   - name: GitHub
     link: "https://github.com/gabireze"
     emoji: "🐙"
-  - name: Twitter
-    link: "https://twitter.com/gabireze_"
-    emoji: "🐦"
-  - name: Medium
-    link: "https://gabireze.medium.com/"
-    emoji: "✍️"
 
 contribution_methods:
   - name: PayPal
