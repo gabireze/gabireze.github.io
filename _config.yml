@@ -29,9 +29,9 @@ defaults:
       image: true
 
 about_me:
-  portuguese: Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 22 anos formado pela Pontifícia Universidade Católica de Campinas. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
+  portuguese: Sou Gabriel de Rezende Gonçalves, um engenheiro de software de 23 anos formado pela Pontifícia Universidade Católica de Campinas. Atuo como full stack developer, com conhecimento em linguagens, frameworks e tecnologias como JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP e Laravel. Além disso, tenho experiência em Flutter para o desenvolvimento de aplicativos mobile.
 
-  english: I am Gabriel de Rezende Gonçalves, a 22-year-old software engineer graduated from the Pontifical Catholic University of Campinas. I work as a full stack developer, with knowledge in languages, frameworks, and technologies such as JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, and Laravel. Additionally, I have experience in Flutter for mobile application development.
+  english: I am Gabriel de Rezende Gonçalves, a 23-year-old software engineer graduated from the Pontifical Catholic University of Campinas. I work as a full stack developer, with knowledge in languages, frameworks, and technologies such as JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, and Laravel. Additionally, I have experience in Flutter for mobile application development.
 
 experiences:
   portuguese:
