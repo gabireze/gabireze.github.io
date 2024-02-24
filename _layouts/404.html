@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html {% if page.url contains "/en/" %}lang="en"{% else %}lang="{{ site.default_lang }}"{% endif %}>
+<html {% if page.url contains "/en/" %}lang="en"{% else %}lang="{{ site.default_lang }}"{% endif %}>
   <head>
     <!-- cookiebot.com -->
     <script
@@ -9,16 +9,21 @@
       data-blockingmode="auto"
       type="text/javascript"
     ></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139610091-3"></script>
+    <!-- Google Analytics-->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-9K0SZYY1KR"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
-      gtag("config", "UA-139610091-3");
+      gtag("config", "G-9K0SZYY1KR", {
+        cookie_domain: "gabireze.com.br",
+        cookie_flags: "SameSite=None;Secure",
+      });
     </script>
     {% assign full_title = page.title | default: site.title %}
     {% assign full_description = page.description | default: site.description %}
