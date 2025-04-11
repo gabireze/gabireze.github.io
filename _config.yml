@@ -29,7 +29,7 @@ google_analytics: G-9K0SZYY1KR
 
 # Meta extras (aproveitados no layout)
 keywords: Gabriel de Rezende Gonçalves, dev, developer, desenvolvedor, software engineer, engenheiro de software, full-stack, full stack, fullstack, JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, Laravel, Flutter
-favicon_location: /assets/img/favicon.ico
+favicon_location: /assets/favicons/favicon.ico
 default_lang: pt-BR
 
 # Markdown e highlight
