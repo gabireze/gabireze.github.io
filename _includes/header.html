@@ -7,13 +7,11 @@
 
   <meta
     name="description"
-    content="{{
-    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape
-  }}"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
   />
-
   <meta name="author" content="{{ site.author.name }}" />
   <meta name="referrer" content="no-referrer-when-downgrade" />
+  <meta name="keywords" content="{{ site.keywords }}" />
 
   <!-- Language and Canonical URLs -->
   <link
@@ -37,16 +35,18 @@
   />
   <meta
     property="og:description"
-    content="{{
-    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape
-  }}"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape }}"
   />
   <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta
     property="og:image"
     content="{{ page.image | default: site.image | absolute_url }}"
   />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:locale" content="{{ site.lang | default: 'pt_BR' }}" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="pt_BR" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />
@@ -56,15 +56,34 @@
   />
   <meta
     name="twitter:description"
-    content="{{
-    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape
-  }}"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape }}"
   />
   <meta
     name="twitter:image"
     content="{{ page.image | default: site.image | absolute_url }}"
   />
   <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+  <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+
+  <!-- rel="me" links para verificação de identidade -->
+  <link rel="me" href="https://twitter.com/{{ site.author.twitter }}" />
+  <link rel="me" href="https://github.com/{{ site.author.github }}" />
+  <link rel="me" href="https://linkedin.com/in/{{ site.author.linkedin }}" />
+
+  <!-- Structured data com JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author.name }}",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "https://github.com/{{ site.author.github }}",
+        "https://twitter.com/{{ site.author.twitter }}",
+        "https://linkedin.com/in/{{ site.author.linkedin }}"
+      ]
+    }
+  </script>
 
   <!-- Favicon & Manifest -->
   <link

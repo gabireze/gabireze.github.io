@@ -2,7 +2,7 @@
 layout: home
 title: "Gabriel de Rezende Gonçalves"
 subtitle: "Software Engineer | Full Stack Developer | JavaScript, Vue.js, React, Laravel, Python | MBA in Solutions Architecture"
-cover-img: /assets/img/default-cover.webp
+cover-img: /assets/img/social-preview.webp
 lang: en
 ---
 
@@ -22,126 +22,140 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 ## Professional Experience
 
-### Encora Inc.  
+### Encora Inc.
+
 **Junior Software Developer** · Jan/2023 – Present
 
-- Full stack solution development and maintenance with focus on scalability, performance, and code quality.  
-- RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.  
-- Distributed services with Docker and Docker Compose, automated CI/CD.  
-- Frontend with Vue.js (Composition API), JavaScript, and TypeScript.  
-- Refactoring of legacy systems in PHP (Laravel).  
-- Automated tests with Pytest (backend) and Playwright (frontend).  
-- High-performance search with Algolia.  
-- Active participation in agile squads, technical reviews, and architecture decisions.  
+- Full stack solution development and maintenance with focus on scalability, performance, and code quality.
+- RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.
+- Distributed services with Docker and Docker Compose, automated CI/CD.
+- Frontend with Vue.js (Composition API), JavaScript, and TypeScript.
+- Refactoring of legacy systems in PHP (Laravel).
+- Automated tests with Pytest (backend) and Playwright (frontend).
+- High-performance search with Algolia.
+- Active participation in agile squads, technical reviews, and architecture decisions.
 - Tools: Jira, Trello, GitHub.
 
 ---
 
-### Encora Inc.  
+### Encora Inc.
+
 **Software Development Intern** · Feb/2021 – Jan/2023
 
-- Internal solutions development with focus on modern architecture and scalability.  
-- APIs using Node.js and Python (FastAPI), integrated with PostgreSQL and MySQL.  
-- Firebase (Auth, Realtime Database, Firestore) for authentication and data persistence.  
-- Web applications with Vue.js and React.  
-- API documentation with Swagger.  
+- Internal solutions development with focus on modern architecture and scalability.
+- APIs using Node.js and Python (FastAPI), integrated with PostgreSQL and MySQL.
+- Firebase (Auth, Realtime Database, Firestore) for authentication and data persistence.
+- Web applications with Vue.js and React.
+- API documentation with Swagger.
 - Repository organization and code standardization.
 
 ---
 
-### SuperOpa  
+### SuperOpa
+
 **Software Development Intern** · Jun/2019 – Feb/2021
 
-- Development of a multi-sector marketplace using Vue.js and Flutter.  
-- Node.js-based APIs under microservices architecture.  
-- Integration with AWS Lambda, API Gateway, CloudWatch, SQS, and DynamoDB.  
-- API documentation with Swagger.  
-- Collaboration with product, design, and business teams.  
+- Development of a multi-sector marketplace using Vue.js and Flutter.
+- Node.js-based APIs under microservices architecture.
+- Integration with AWS Lambda, API Gateway, CloudWatch, SQS, and DynamoDB.
+- API documentation with Swagger.
+- Collaboration with product, design, and business teams.
 - Startup environment with fast-paced deliveries and customer-focused mindset.
 
 ---
 
-### OpaBox  
+### OpaBox
+
 **Software Development Intern** · Jun/2019 – Feb/2021
 
-- White-label e-commerce solutions development for B2C businesses.  
-- Reusable Vue.js and Flutter applications.  
-- Node.js APIs using AWS services (Lambda, SQS, API Gateway).  
-- Custom logic and layout adaptations for different clients.  
-- Integration with external services.  
+- White-label e-commerce solutions development for B2C businesses.
+- Reusable Vue.js and Flutter applications.
+- Node.js APIs using AWS services (Lambda, SQS, API Gateway).
+- Custom logic and layout adaptations for different clients.
+- Integration with external services.
 - Technical collaboration with product teams under high-demand deliveries.
 
 ---
 
 ## Education
 
-### FIAP – Faculdade de Informática e Administração Paulista  
+### FIAP – Faculdade de Informática e Administração Paulista
+
 **MBA in Solutions Architecture (in progress)** · 2025 – 2026
 
-- System architecture  
-- Cloud computing  
-- Microservices  
-- Information security  
-- Systems integration  
+- System architecture
+- Cloud computing
+- Microservices
+- Information security
+- Systems integration
 - Technical leadership
 
 ---
 
-### PUC Campinas – Pontifícia Universidade Católica de Campinas  
+### PUC Campinas – Pontifícia Universidade Católica de Campinas
+
 **Bachelor's in Software Engineering** · 2019 – 2023
 
-- Software development  
-- Data structures  
-- Requirements engineering  
-- Code quality  
-- Agile methodologies  
+- Software development
+- Data structures
+- Requirements engineering
+- Code quality
+- Agile methodologies
 - DevOps practices
 
 ---
 
-### ETEC Bento Quirino  
+### ETEC Bento Quirino
+
 **Technical High School in Computer Science** · 2016 – 2018
 
-- Programming logic  
-- Web development  
-- Computer networks  
-- Databases  
+- Programming logic
+- Web development
+- Computer networks
+- Databases
 - Operating systems
 
 ---
 
-### Canadian College of English Language (CCEL), Vancouver – Canada  
+### Canadian College of English Language (CCEL), Vancouver – Canada
+
 **Academic Exchange – Advanced English** · Jul/2022
 
-- Intensive course focused on technical English  
+- Intensive course focused on technical English
 - Oral communication in professional international settings
 
 ---
 
 ## Technical Skills
 
-### Technologies and Frameworks  
+### Technologies and Frameworks
+
 Vue 3 (Composition API), JavaScript (ES6+), TypeScript, Python (FastAPI), Node.js, Express.js, React, Flutter
 
-### Architecture and APIs  
+### Architecture and APIs
+
 RESTful APIs, Microservices Architecture, Serverless (AWS Lambda, API Gateway), Firebase, Form.io, Okta, Algolia
 
-### Cloud and DevOps  
+### Cloud and DevOps
+
 Docker, Docker Compose, AWS (Lambda, SQS, API Gateway, CloudWatch, S3), Firebase Hosting, CI/CD (GitHub Actions)
 
-### Databases and ORMs  
+### Databases and ORMs
+
 PostgreSQL, MySQL, MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB, SQLAlchemy, Alembic
 
-### Testing and Quality  
+### Testing and Quality
+
 Pytest (unit/integration), Playwright (E2E), Swagger/OpenAPI, Postman, Mailtrap
 
-### Tools and Methodologies  
+### Tools and Methodologies
+
 Git, GitHub, Jira, Trello, Figma, Agile (Scrum/Kanban), Code Review, Technical Documentation
 
 ---
 
 ## Contact
 
-- [gabireze@gmail.com](mailto:gabireze@gmail.com)  
-- [linkedin.com/in/gabireze](https://linkedin.com/in/gabireze)  
-- [github.com/gabireze](https://github.com/gabireze)  
+- [gabireze@gmail.com](mailto:gabireze@gmail.com)
+- [linkedin.com/in/gabireze](https://linkedin.com/in/gabireze)
+- [github.com/gabireze](https://github.com/gabireze)

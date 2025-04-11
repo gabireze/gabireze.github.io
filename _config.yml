@@ -3,7 +3,7 @@ description: >
   Desenvolvedor full stack com experiência em Vue.js, React, Laravel, Python (FastAPI), arquitetura de soluções, microsserviços e cloud computing.
 lang: pt-BR
 timezone: America/Sao_Paulo
-image: /assets/img/default-cover.webp
+image: /assets/img/social-preview.webp
 mode: light
 
 url: "https://gabireze.com.br"
@@ -18,10 +18,11 @@ author:
     Full Stack Developer | Vue.js, React, Laravel, Python | MBA em Arquitetura de Soluções
   username: gabireze
   github: gabireze
-  twitter: gabireze
-  facebook:
+  twitter: gabireze_
+  facebook: gabireze
+  linkedin: gabireze
   email: gabireze@gmail.com
-  avatar: /assets/img/avatar.jpg
+  avatar: /assets/img/user.png
 
 # Google Analytics (GA4)
 google_analytics: G-9K0SZYY1KR
