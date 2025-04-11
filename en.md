@@ -2,7 +2,7 @@
 layout: home
 title: "Gabriel de Rezende Gonçalves"
 subtitle: "Software Engineer | Full Stack Developer | JavaScript, Vue.js, React, Laravel, Python | MBA in Solutions Architecture"
-cover-img: /assets/img/social-preview.webp
+cover-img: /assets/img/social-preview.png
 lang: en
 ---
 
