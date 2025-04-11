@@ -1,0 +1,16 @@
+- title: CV
+  lang: all
+  filename: CV - Gabriel de Rezende Gonçalves.pdf
+  filename_en: Resume - Gabriel de Rezende Gonçalves.pdf
+
+- title: github
+  url: https://github.com/gabireze
+  external: true
+
+- title: linkedin
+  url: https://www.linkedin.com/in/gabireze/
+  external: true
+
+- title: email
+  url: mailto:contato@gabireze.com.br
+  external: true

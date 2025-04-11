@@ -1,18 +1,100 @@
-<header class="navbar container">
-  <h1 style="padding: 0; margin: 0">
-    <a id="author-name" class="alignable pull-left" href="/">{{ site.title }}</a>
-  </h1>
-  <nav>
-    <ul id="navlist" class="alignable pull-right navbar-ul">
-      {% if page.lang == "pt-br" %} {% for item in site.nav.portuguese %}
-      <li class="alignable pull-left nav-list">
-        <a href="{{ item.link }}" target="{{item.target}}">{{ item.title }}</a>
-      </li>
-      {% endfor %} {% else %} {% for item in site.nav.english %}
-      <li class="alignable pull-left nav-list">
-        <a href="{{ item.link }}" target="{{item.target}}">{{ item.title }}</a>
-      </li>
-      {% endfor %} {% endif %}
-    </ul>
-  </nav>
-</header>
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ site.title }}</title>
+
+  <meta
+    name="description"
+    content="{{
+    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape
+  }}"
+  />
+
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <!-- Language and Canonical URLs -->
+  <link
+    rel="alternate"
+    hreflang="pt-br"
+    href="{{ '/index.html' | relative_url | absolute_url }}"
+  />
+  <link
+    rel="alternate"
+    hreflang="en"
+    href="{{ '/en.html' | relative_url | absolute_url }}"
+  />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="{{ page.title | default: site.title | escape }}"
+  />
+  <meta
+    property="og:description"
+    content="{{
+    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape
+  }}"
+  />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta
+    property="og:image"
+    content="{{ page.image | default: site.image | absolute_url }}"
+  />
+  <meta property="og:locale" content="{{ site.lang | default: 'pt_BR' }}" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta
+    name="twitter:title"
+    content="{{ page.title | default: site.title | escape }}"
+  />
+  <meta
+    name="twitter:description"
+    content="{{
+    page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape
+  }}"
+  />
+  <meta
+    name="twitter:image"
+    content="{{ page.image | default: site.image | absolute_url }}"
+  />
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
+
+  <!-- Favicon & Manifest -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/assets/favicons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicons/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/assets/favicons/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+  <link
+    rel="mask-icon"
+    href="/assets/favicons/safari-pinned-tab.svg"
+    color="#5bbad5"
+  />
+  <meta name="theme-color" content="#2c2c2c" />
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
+  <meta name="application-name" content="{{ site.title }}" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>

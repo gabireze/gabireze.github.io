@@ -1,5 +1,12 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.0"
-gem "webrick", "~> 1.8"
-gem 'jekyll-redirect-from', '~> 0.16.0'
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+gem "jekyll"
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+end
+
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "wdm" if Gem.win_platform?

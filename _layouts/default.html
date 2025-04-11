@@ -1,15 +1,16 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html {% if page.url contains "/en/" %}lang="en"{% else %}lang="{{ site.default_lang }}"{% endif %}>
-  <head>
-    <!-- cookiebot.com -->
-    <script
-      id="Cookiebot"
-      src="https://consent.cookiebot.com/uc.js"
-      data-cbid="d16fdba9-be0f-46d4-98a0-605da80c966f"
-      data-blockingmode="auto"
-      type="text/javascript"
-    ></script>
-    <!-- Google Analytics-->
+<html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}">
+  {% include header.html %}
+
+  <body data-theme="{{ site.mode }}" class="notransition">
+    <!-- JS principal -->
+    <script src="/assets/js/main.js" defer></script>
+
+    <!-- Google Analytics (GA4) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-9K0SZYY1KR"
@@ -25,46 +26,30 @@
         cookie_flags: "SameSite=None;Secure",
       });
     </script>
-    {% assign full_title = page.title | default: site.title %}
-    {% assign full_description = page.description | default: site.description %}
-    <!-- Primary Meta Tags -->
-    <title>{{ full_title }}</title>
-    <meta name="title" content="{{ full_title }}" />
-    <meta name="description" content="{{ full_description  }}" />
-    <meta name="keywords" content="{{ site.keywords }}" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="{{ site.author  }}" />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:locale" {% if page.url contains "/en/" %}content="en"{% else %}content="{{ site.default_lang }}"{% endif %} />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:title" content="{{ full_title }}" />
-    <meta property="og:description" content="{{ full_description  }}" />
-    <meta property="og:site_name" content="{{ full_title }}" />
-    <meta property="og:image" content="{{ site.url}}/assets/img/user.png" />
-    <meta property="og:image:alt" content="Profile image of {{ site.author }}" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="800" />
-    <meta property="og:image:height" content="600" />
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="{{ site.url }}/" />
-    <meta name="twitter:site" content="@gabireze_" />
-    <meta name="twitter:creator" content="@gabireze_" />
-    <meta property="twitter:title" content="{{ full_title }}" />
-    <meta property="twitter:description" content="{{ full_description  }}" />
-    <meta name="twitter:image" content="{{ site.url}}/assets/img/user.png" />
-    <meta property="twitter:image:alt" content="Profile image of {{ site.author }}" />
-    {% if page.url == "/404.html" %}
-    <meta http-equiv="refresh" content="5; url=/" />
-    {% endif %}
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml" />
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css" />
-    <link rel="icon" type="image/ico" href="{{ site.favicon_location }}" />
-    <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}" />
-  </head>
-  <body>
-    {% include header.html %} {% include main.html %} {% include footer.html %}
+
+    <!-- Lógica do tema -->
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+
+      initTheme(localStorage.getItem("theme"));
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+
+    {% include navbar.html %}
+
+    <div class="wrapper">
+      <main aria-label="Content">{{ content }}</main>
+    </div>
   </body>
 </html>

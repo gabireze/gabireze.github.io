@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<header>
+  <h1 style="line-height: 2.5rem; margin-top: 1.5rem" id="title">
+    {{ page.title }}
+  </h1>
+  <p>{{ page.subtitle }}</p>
+</header>
+
+<main class="container">
+  {% include anchor_headings.html html=content anchorClass="anchor"
+  anchorBody="#" anchorTitle="%heading%" beforeHeading=true %}
+</main>
