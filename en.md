@@ -24,7 +24,7 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 ### Encora Inc.
 
-**Junior Software Developer** · Jan/2023 – Present
+**Software Developer** · Jan/2023 – Present
 
 - Full stack solution development and maintenance with focus on scalability, performance, and code quality.
 - RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.

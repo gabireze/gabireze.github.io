@@ -23,7 +23,7 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 ### Encora Inc.
 
-**Desenvolvedor de Software Júnior** · Jan/2023 – Atual
+**Desenvolvedor de Software** · Jan/2023 – Atual
 
 - Desenvolvimento e sustentação de soluções full stack com foco em escalabilidade, performance e qualidade de código.
 - APIs RESTful com Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.
