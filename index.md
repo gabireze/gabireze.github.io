@@ -155,6 +155,6 @@ Git, GitHub, Jira, Trello, Figma, Agile (Scrum/Kanban), Code Review, Documentaç
 
 ## Contato
 
-- [gabireze@gmail.com](mailto:gabireze@gmail.com)
+- [contato@gabireze.com.br](mailto:contato@gabireze.com.br)
 - [linkedin.com/in/gabireze](https://linkedin.com/in/gabireze)
 - [github.com/gabireze](https://github.com/gabireze)
