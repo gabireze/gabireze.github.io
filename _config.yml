@@ -4,7 +4,7 @@ description: >
 lang: pt-BR
 timezone: America/Sao_Paulo
 image: /assets/img/social-preview.png
-mode: light
+mode: dark
 
 url: "https://gabireze.com.br"
 baseurl: "" # ajuste se estiver usando subpasta no GitHub Pages
