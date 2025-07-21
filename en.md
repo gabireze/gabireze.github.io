@@ -22,9 +22,22 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 ## Professional Experience
 
+
+### Levva
+
+**Software Engineer** · Jul/2025 – Present
+
+- Back end development of scalable solutions.
+- RESTful APIs and microservices using PHP and Laravel.
+- Integration with external systems.
+- Technical leadership in high-complexity projects.
+- Collaboration with multidisciplinary teams and agile methodologies.
+
+---
+
 ### Encora Inc.
 
-**Software Developer** · Jan/2023 – Present
+**Software Engineer** · Jan/2023 – Apr/2025
 
 - Full stack solution development and maintenance with focus on scalability, performance, and code quality.
 - RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.
