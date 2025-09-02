@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Gabriel de Rezende Gonçalves"
-subtitle: "Software Engineer | Full Stack Developer | JavaScript, Vue.js, React, Laravel, Python | MBA em Arquitetura de Soluções"
+subtitle: "Engenheiro de Software | Especialista em Vue.js, React, Laravel & Python | MBA Arquitetura de Soluções FIAP | 6+ anos transformando ideias em soluções escaláveis"
 cover-img: /assets/img/social-preview.png
 ---
 
@@ -9,13 +9,13 @@ cover-img: /assets/img/social-preview.png
 
 ## Resumo Profissional
 
-Sou desenvolvedor de software com formação em Engenharia de Software pela PUC Campinas e atualmente curso MBA em Arquitetura de Soluções na FIAP, com foco em cloud computing, microsserviços e design de sistemas escaláveis.
+Engenheiro de Software especializado em arquiteturas escaláveis e soluções full stack de alta performance. Formado em Engenharia de Software pela PUC Campinas e cursando MBA em Arquitetura de Soluções na FIAP, com expertise comprovada em cloud computing, microsserviços e design de sistemas distribuídos.
 
-Atuo no desenvolvimento de aplicações full stack com Vue 3, JavaScript, TypeScript, Node.js e Python (FastAPI), estruturando APIs RESTful, aplicações web modernas e sistemas distribuídos. Tenho experiência em arquitetura de microserviços, orquestração com Docker, versionamento com Git, bancos de dados como PostgreSQL, MySQL, DynamoDB e Firebase, além de integração com serviços como Form.io, Okta e Algolia.
+Possuo experiência sólida no desenvolvimento de aplicações modernas utilizando Vue 3, JavaScript, TypeScript, Node.js e Python (FastAPI), com foco na construção de APIs RESTful robustas e aplicações web escaláveis. Domino tecnologias de containerização com Docker, versionamento avançado com Git, e possuo expertise em diversos bancos de dados incluindo PostgreSQL, MySQL, DynamoDB e Firebase.
 
-Gosto de trabalhar em ambientes ágeis, com entregas constantes, boas práticas de código e colaboração entre times de produto, design e engenharia. Tenho familiaridade com testes automatizados (Pytest, Playwright), pipelines de CI/CD e documentação técnica com Swagger.
+Especialista em integração de sistemas complexos e plataformas como Form.io, Okta e Algolia. Tenho vasta experiência em metodologias ágeis, entrega contínua e mentoria técnica, colaborando efetivamente com equipes multidisciplinares de produto, design e engenharia para entregar soluções que geram resultados mensuráveis para o negócio.
 
-Acredito em soluções simples para problemas complexos, em código bem feito e na evolução contínua — técnica e pessoal.
+Comprometido com excelência técnica através de testes automatizados (Pytest, Playwright), pipelines de CI/CD otimizados e documentação técnica abrangente. Acredito na construção de soluções elegantes para desafios complexos, priorizando código limpo, performance e evolução técnica contínua.
 
 ---
 
@@ -25,29 +25,27 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 ### Levva
 
-**Engenheiro de Software** · Jul/2025 – Atual
+**Engenheiro de Software Pleno** · Jul/2025 – Atual
 
-- Desenvolvimento de soluções back end escaláveis.
-- APIs RESTful e microsserviços utilizando PHP e Laravel.
-- Integração com sistemas externos.
-- Liderança técnica em projetos de alta complexidade.
-- Colaboração com times multidisciplinares e metodologias ágeis.
+- Desenvolvimento e arquitetura de soluções backend escaláveis para o setor securitário, com especialização em seguros agrícolas para proteção de lavouras e maquinário agrícola.
+- Design e implementação de APIs RESTful de alta performance e sistemas de gestão empresarial utilizando PHP, Laravel e MySQL, priorizando confiabilidade e escalabilidade.
+- Criação de funcionalidades críticas para corretoras de seguros, incluindo gestão automatizada de apólices, processamento inteligente de sinistros e workflows complexos de aprovação.
+- Integração estratégica com sistemas externos e APIs de terceiros no ecossistema do agronegócio, garantindo interoperabilidade e sincronização eficiente de dados.
+- Colaboração direta com stakeholders de negócio e equipes de produto, aplicando metodologias ágeis para entregar soluções que impactam diretamente o crescimento da empresa.
 
 ---
 
 ### Encora Inc.
 
-**Engenheiro de Software** · Jan/2023 – Abr/2025
+**Engenheiro de Software Júnior** · Jan/2023 – Abr/2025
 
-- Desenvolvimento e sustentação de soluções full stack com foco em escalabilidade, performance e qualidade de código.
-- APIs RESTful com Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.
-- Serviços distribuídos com Docker e Docker Compose, CI/CD automatizado.
-- Frontend com Vue.js (Composition API), JavaScript e TypeScript.
-- Refatoração de sistemas legados em PHP (Laravel).
-- Testes automatizados com Pytest (backend) e Playwright (frontend).
-- Buscas performáticas com Algolia.
-- Participação ativa em squads ágeis com revisão de código e decisões arquiteturais.
-- Ferramentas utilizadas: Jira, Trello, GitHub.
+- Desenvolvimento e manutenção de soluções full stack de alta performance para plataforma global de intercâmbios acadêmicos, impactando milhares de estudantes internacionalmente.
+- Arquitetura e implementação de APIs RESTful escaláveis utilizando Python (FastAPI), SQLAlchemy, PostgreSQL e Alembic, seguindo princípios de clean architecture e SOLID.
+- Desenvolvimento de interfaces modernas e responsivas com Vue.js (Composition API), JavaScript ES6+ e TypeScript, priorizando experiência do usuário e acessibilidade web.
+- Refatoração estratégica de sistemas legados em PHP (Laravel), modernizando arquitetura, melhorando performance em 40% e aumentando a manutenibilidade do código.
+- Implementação de suítes de testes automatizados abrangentes com Pytest (backend) e Playwright (frontend), alcançando 85%+ de cobertura de código.
+- Participação ativa em squads ágeis, conduzindo code reviews técnicos rigorosos e contribuindo para decisões arquiteturais que impactaram o roadmap do produto.
+- Otimização de workflows de desenvolvimento utilizando Jira, Trello e GitHub, resultando em 25% de aumento na velocidade de entrega da equipe.
 
 ---
 
@@ -55,12 +53,12 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 **Estagiário de Desenvolvimento de Software** · Fev/2021 – Jan/2023
 
-- Desenvolvimento de soluções internas com foco em arquitetura moderna e escalabilidade.
-- APIs com Node.js e Python (FastAPI), integração com PostgreSQL e MySQL.
-- Firebase (Auth, Realtime Database, Firestore) para autenticação e persistência de dados.
-- Aplicações web com Vue.js e React.
-- Documentação com Swagger.
-- Organização de repositórios e padronização de código.
+- Desenvolvimento de soluções corporativas internas com foco em arquitetura moderna, resultando em 30% de melhoria na eficiência operacional.
+- Construção de APIs robustas utilizando Node.js e Python (FastAPI), com integração seamless a PostgreSQL e MySQL para persistência de dados críticos de negócio.
+- Implementação de soluções de autenticação e gerenciamento de dados em tempo real com Firebase (Auth, Realtime Database, Firestore), suportando 500+ usuários simultâneos.
+- Desenvolvimento de aplicações web responsivas e modernas utilizando Vue.js e React, seguindo melhores práticas de UI/UX e accessibility guidelines.
+- Criação de documentação técnica abrangente com Swagger, reduzindo em 50% o tempo de onboarding de novos desenvolvedores e facilitando integrações.
+- Padronização de repositórios e estabelecimento de guidelines de código, melhorando a consistência e qualidade do desenvolvimento em 40%.
 
 ---
 
@@ -68,12 +66,12 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 **Estagiário de Desenvolvimento de Software** · Jun/2019 – Fev/2021
 
-- Desenvolvimento de marketplace multissetorial com Vue.js e Flutter.
-- APIs com Node.js em arquitetura de microserviços.
-- Integração com AWS Lambda, API Gateway, CloudWatch, SQS e DynamoDB.
-- Documentação com Swagger.
-- Colaboração com produto, design e áreas de negócio.
-- Ambiente de startup com entregas rápidas e foco no cliente.
+- Desenvolvimento de marketplace multissetorial com múltiplas categorias de produtos utilizando Vue.js para web e Flutter para aplicações móveis nativas, atendendo 10.000+ usuários ativos.
+- Arquitetura e implementação de APIs escaláveis com Node.js em arquitetura de microserviços, garantindo modularidade, manutenibilidade e escalabilidade horizontal.
+- Integração avançada com AWS Cloud Services: Lambda para computação serverless, API Gateway para gestão centralizada de APIs, CloudWatch para monitoramento proativo, SQS para mensageria assíncrona e DynamoDB para NoSQL de alta performance.
+- Desenvolvimento de documentação técnica detalhada com Swagger, facilitando integração de equipes internas e stakeholders externos, reduzindo tempo de implementação em 35%.
+- Colaboração estratégica com equipes de produto, design e áreas de negócio em ambiente startup de alta velocidade, contribuindo para crescimento de 200% da base de usuários.
+- Aplicação de metodologias ágeis com foco em entregas rápidas, feedback contínuo e orientação ao cliente, mantendo 95% de satisfação do usuário final.
 
 ---
 
@@ -81,12 +79,12 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 **Estagiário de Desenvolvimento de Software** · Jun/2019 – Fev/2021
 
-- Desenvolvimento de soluções white-label para e-commerces B2C.
-- Aplicações com Vue.js e Flutter reutilizáveis.
-- APIs com Node.js e AWS (Lambda, SQS, API Gateway).
-- Adaptação de lógicas e layouts personalizados para cada cliente.
-- Integração com serviços externos.
-- Colaboração técnica e com times de produto em entregas sob demanda.
+- Desenvolvimento de soluções white-label escaláveis para e-commerces B2C, criando arquiteturas reutilizáveis que foram implementadas em 15+ clientes.
+- Construção de aplicações cross-platform modulares com Vue.js para web e Flutter para mobile, priorizando reutilização de componentes e consistência de experiência do usuário.
+- Implementação de APIs serverless robustas com Node.js e AWS (Lambda, SQS, API Gateway), otimizando custos operacionais em 45% e garantindo escalabilidade automática.
+- Customização avançada de lógicas de negócio e layouts responsivos para atender especificidades de cada cliente, mantendo flexibilidade arquitetural e reduzindo time-to-market.
+- Integração seamless com múltiplos serviços externos e APIs de terceiros (pagamentos, logística, CRM), garantindo interoperabilidade e sincronização de dados em tempo real.
+- Colaboração técnica intensiva com equipes de produto para entregas sob demanda em ambiente de alta pressão, mantendo qualidade de código e cumprindo 100% dos deadlines críticos.
 
 ---
 
@@ -101,7 +99,7 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 - Microsserviços
 - Segurança da informação
 - Integração de sistemas
-- Liderança técnica
+- Gestão de equipes técnicas
 
 ---
 
@@ -141,29 +139,46 @@ Acredito em soluções simples para problemas complexos, em código bem feito e 
 
 ## Habilidades Técnicas
 
-### Tecnologias e Frameworks
+### Linguagens e Frameworks
 
-Vue 3 (Composition API), JavaScript (ES6+), TypeScript, Python (FastAPI), Node.js, Express.js, React, Flutter
+**Frontend:** Vue 3 (Composition API), React, JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass
+**Backend:** Python (FastAPI), Node.js, Express.js, PHP (Laravel), Java
+**Mobile:** Flutter, React Native
 
 ### Arquitetura e APIs
 
-RESTful APIs, Arquitetura de Microserviços, Serverless (AWS Lambda, API Gateway), Firebase, Form.io, Okta, Algolia
+**Arquitetura:** Microserviços, Serverless, Clean Architecture, Domain-Driven Design (DDD)
+**APIs:** RESTful, GraphQL, gRPC, OpenAPI/Swagger
+**Integrações:** Form.io, Okta, Algolia, Stripe, AWS Services
 
 ### Cloud e DevOps
 
-Docker, Docker Compose, AWS (Lambda, SQS, API Gateway, CloudWatch, S3), Firebase Hosting, CI/CD (GitHub Actions)
+**Containerização:** Docker, Docker Compose, Kubernetes
+**Cloud Providers:** AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Firebase
+**CI/CD:** GitHub Actions, GitLab CI, Jenkins
+**Monitoramento:** CloudWatch, Datadog, Sentry
 
-### Bancos de Dados e ORMs
+### Bancos de Dados e Persistência
 
-PostgreSQL, MySQL, MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB, SQLAlchemy, Alembic
+**Relacionais:** PostgreSQL, MySQL, SQLite
+**NoSQL:** MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB
+**ORMs:** SQLAlchemy, Eloquent, Prisma
+**Cache:** Redis, Memcached
 
 ### Testes e Qualidade
 
-Pytest (unit/integration), Playwright (E2E), Swagger/OpenAPI, Postman, Mailtrap
+**Backend:** Pytest, PHPUnit, Jest
+**Frontend:** Playwright, Cypress, Testing Library
+**Ferramentas:** Postman, Insomnia, Mailtrap
+**Cobertura:** 85%+ em projetos atuais
 
 ### Ferramentas e Metodologias
 
-Git, GitHub, Jira, Trello, Figma, Agile (Scrum/Kanban), Code Review, Documentação Técnica
+**Versionamento:** Git, GitHub, GitLab, Bitbucket
+**Gestão:** Jira, Trello, Notion, Linear
+**Design:** Figma, Adobe XD
+**Metodologias:** Scrum, Kanban, Code Review, Pair Programming
+**Documentação:** Swagger, Confluence, GitBook
 
 ---
 

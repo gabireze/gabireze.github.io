@@ -1,6 +1,6 @@
-title: Gabriel de Rezende Gonçalves
+title: Gabriel de Rezende Gonçalves | Software Engineer
 description: >
-  Desenvolvedor full stack com experiência em Vue.js, React, Laravel, Python (FastAPI), arquitetura de soluções, microsserviços e cloud computing.
+  Engenheiro de Software especializado em Vue.js, React, Laravel, Python (FastAPI), arquitetura de soluções e cloud computing. MBA em Arquitetura de Soluções pela FIAP. Experiência comprovada em desenvolvimento full stack e liderança técnica.
 lang: pt-BR
 timezone: America/Sao_Paulo
 image: /assets/img/social-preview.png
@@ -15,7 +15,7 @@ permalink: /:title/
 author:
   name: Gabriel de Rezende Gonçalves
   bio: >
-    Full Stack Developer | Vue.js, React, Laravel, Python | MBA em Arquitetura de Soluções
+    Engenheiro de Software | Vue.js, React, Laravel, Python | MBA em Arquitetura de Soluções | Especialista em Cloud Computing e Microsserviços
   username: gabireze
   github: gabireze
   twitter: gabireze_
@@ -27,8 +27,8 @@ author:
 # Google Analytics (GA4)
 google_analytics: G-9K0SZYY1KR
 
-# Meta extras (aproveitados no layout)
-keywords: Gabriel de Rezende Gonçalves, dev, developer, desenvolvedor, software engineer, engenheiro de software, full-stack, full stack, fullstack, JavaScript, Vue.js, React, Node.js, NoSQL, MySQL, PHP, Laravel, Flutter
+# Meta extras otimizadas para SEO
+keywords: Gabriel de Rezende Gonçalves, Software Engineer, Engenheiro de Software, Full Stack Developer, Vue.js, React, Laravel, Python FastAPI, Node.js, JavaScript, TypeScript, AWS, Cloud Computing, Microservices, API REST, PostgreSQL, MySQL, Docker, CI/CD, Agile, Scrum, FIAP, PUC Campinas
 favicon_location: /assets/favicons/favicon.ico
 default_lang: pt-BR
 
@@ -38,22 +38,43 @@ highlighter: rouge
 kramdown:
   syntax_highlighter: rouge
 
-# Sass (CSS)
+# Sass (CSS) com otimizações
 sass:
   style: compressed
+  sourcemap: never
 
 # Plugins ativos
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Compressão de HTML
+# Compressão de HTML melhorada
 compress_html:
   clippings: all
   endings: all
   comments: ["<!-- ", " -->"]
+  profile: false
+  blanklines: false
   ignore:
     envs: ["development"]
+
+# SEO melhorado
+google_site_verification: # Adicione aqui se tiver
+twitter:
+  username: gabireze_
+  card: summary_large_image
+
+# Performance otimizations
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Build optimizations
+incremental: true
+safe: true
+lsi: false
+highlight: true
 
 # Inclusões no build
 include:

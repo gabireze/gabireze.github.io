@@ -2,8 +2,32 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}">
+<!DOCTYPE htm    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        const container = document.getElementById("not-found-container");
+        const isEnglish = window.location.pathname.startsWith("/en");
+
+        const html = isEnglish
+          ? `
+          <h1 class="title" role="heading" aria-level="1">404</h1>
+          <p class="phrase" role="text">The page you're looking for doesn't exist.</p>
+          <a class="solution" href="/en" role="button" aria-label="Return to homepage">Back to home</a>
+        `
+          : `
+          <h1 class="title" role="heading" aria-level="1">404</h1>
+          <p class="phrase" role="text">A página que você procura não foi encontrada.</p>
+          <a class="solution" href="/" role="button" aria-label="Voltar para a página inicial">Voltar para a página inicial</a>
+        `;
+
+        container.innerHTML = html;
+        
+        // Adicionar focus no título para leitores de tela
+        const title = container.querySelector('h1');
+        if (title) {
+          title.focus();
+        }
+      });
+    </script>age.lang | default: site.lang | default: 'pt-BR' }}">
   {% include header.html %}
   <body data-theme="{{ site.mode }}" class="notransition">
     <script>

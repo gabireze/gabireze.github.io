@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://gabireze.com.br/sitemap.xml
+
+# Otimizações para crawlers
+Crawl-delay: 1
+
+# Bloquear arquivos desnecessários para SEO
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /_sass/
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /.sass-cache/
+Disallow: /node_modules/
+
+# Permitir recursos importantes
+Allow: /assets/img/
+Allow: /assets/pdf/
+Allow: /assets/favicons/

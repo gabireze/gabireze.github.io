@@ -2,6 +2,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
 
   <title>{{ site.title }}</title>
 
@@ -70,13 +72,29 @@
   <link rel="me" href="https://github.com/{{ site.author.github }}" />
   <link rel="me" href="https://linkedin.com/in/{{ site.author.linkedin }}" />
 
-  <!-- Structured data com JSON-LD -->
+  <!-- Structured data com JSON-LD melhorado -->
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "{{ site.author.name }}",
       "url": "{{ site.url }}",
+      "jobTitle": "Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Levva"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "PUC Campinas"
+        },
+        {
+          "@type": "EducationalOrganization", 
+          "name": "FIAP"
+        }
+      ],
+      "knowsAbout": ["JavaScript", "Vue.js", "React", "Python", "Laravel", "AWS", "Software Architecture"],
       "sameAs": [
         "https://github.com/{{ site.author.github }}",
         "https://twitter.com/{{ site.author.twitter }}",
@@ -110,5 +128,7 @@
   <meta name="msapplication-TileColor" content="#da532c" />
 
   <!-- Styles -->
+  <link rel="preload" href="/assets/css/style.css" as="style" />
+  <link rel="preload" href="/assets/js/main.js" as="script" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>

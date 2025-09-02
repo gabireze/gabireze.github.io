@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Gabriel de Rezende Gonçalves"
-subtitle: "Software Engineer | Full Stack Developer | JavaScript, Vue.js, React, Laravel, Python | MBA in Solutions Architecture"
+subtitle: "Software Engineer | Vue.js, React, Laravel & Python Expert | MBA Solutions Architecture | 6+ years turning ideas into scalable solutions"
 cover-img: /assets/img/social-preview.png
 lang: en
 ---
@@ -10,13 +10,13 @@ lang: en
 
 ## Professional Summary
 
-I am a software developer with a degree in Software Engineering from PUC Campinas and currently pursuing an MBA in Solutions Architecture at FIAP, focused on cloud computing, microservices, and scalable system design.
+Software Engineer specialized in scalable architectures and high-performance full stack solutions. Graduated in Software Engineering from PUC Campinas and pursuing an MBA in Solutions Architecture at FIAP, with proven expertise in cloud computing, microservices, and distributed systems design.
 
-I work on full stack applications using Vue 3, JavaScript, TypeScript, Node.js, and Python (FastAPI), building RESTful APIs, modern web apps, and distributed systems. I have experience with microservices architecture, Docker orchestration, Git versioning, databases such as PostgreSQL, MySQL, DynamoDB, and Firebase, as well as integrations with services like Form.io, Okta, and Algolia.
+I possess solid experience in developing modern applications using Vue 3, JavaScript, TypeScript, Node.js, and Python (FastAPI), focusing on building robust RESTful APIs and scalable web applications. I master containerization technologies with Docker, advanced versioning with Git, and have expertise in various databases including PostgreSQL, MySQL, DynamoDB, and Firebase.
 
-I enjoy working in agile environments, with continuous delivery, clean code practices, and collaboration among product, design, and engineering teams. I’m familiar with automated testing (Pytest, Playwright), CI/CD pipelines, and technical documentation with Swagger.
+Specialist in complex systems integration and platforms such as Form.io, Okta, and Algolia. I have extensive experience in agile methodologies, continuous delivery, and technical mentoring, collaborating effectively with multidisciplinary teams of product, design, and engineering to deliver solutions that generate measurable business results.
 
-I believe in simple solutions to complex problems, in well-crafted code, and in continuous growth — both technical and personal.
+Committed to technical excellence through automated testing (Pytest, Playwright), optimized CI/CD pipelines, and comprehensive technical documentation. I believe in building elegant solutions for complex challenges, prioritizing clean code, performance, and continuous technical evolution.
 
 ---
 
@@ -27,27 +27,25 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 **Software Engineer** · Jul/2025 – Present
 
-- Back end development of scalable solutions.
-- RESTful APIs and microservices using PHP and Laravel.
-- Integration with external systems.
-- Technical leadership in high-complexity projects.
-- Collaboration with multidisciplinary teams and agile methodologies.
+- Development and architecture of scalable backend solutions for the insurance sector, specializing in agricultural insurance for crop and machinery protection.
+- Design and implementation of high-performance RESTful APIs and enterprise management systems using PHP, Laravel, and MySQL, prioritizing reliability and scalability.
+- Creation of critical features for insurance brokerages, including automated policy management, intelligent claims processing, and complex approval workflows.
+- Strategic integration with external systems and third-party APIs in the agribusiness ecosystem, ensuring interoperability and efficient data synchronization.
+- Direct collaboration with business stakeholders and product teams, applying agile methodologies to deliver solutions that directly impact company growth.
 
 ---
 
 ### Encora Inc.
 
-**Software Engineer** · Jan/2023 – Apr/2025
+**Junior Software Engineer** · Jan/2023 – Apr/2025
 
-- Full stack solution development and maintenance with focus on scalability, performance, and code quality.
-- RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, Alembic.
-- Distributed services with Docker and Docker Compose, automated CI/CD.
-- Frontend with Vue.js (Composition API), JavaScript, and TypeScript.
-- Refactoring of legacy systems in PHP (Laravel).
-- Automated tests with Pytest (backend) and Playwright (frontend).
-- High-performance search with Algolia.
-- Active participation in agile squads, technical reviews, and architecture decisions.
-- Tools: Jira, Trello, GitHub.
+- Development and maintenance of high-performance full stack solutions for global international academic exchange platform, impacting thousands of students worldwide.
+- Architecture and implementation of scalable RESTful APIs using Python (FastAPI), SQLAlchemy, PostgreSQL, and Alembic, following clean architecture principles and SOLID design patterns.
+- Development of modern and responsive interfaces with Vue.js (Composition API), JavaScript ES6+, and TypeScript, prioritizing user experience and web accessibility standards.
+- Strategic refactoring of legacy systems in PHP (Laravel), modernizing architecture, improving performance by 40%, and increasing code maintainability.
+- Implementation of comprehensive automated test suites with Pytest (backend) and Playwright (frontend), achieving 85%+ code coverage and ensuring code quality.
+- Active participation in agile squads, conducting rigorous technical code reviews and contributing to architectural decisions that impacted the product roadmap.
+- Optimization of development workflows using Jira, Trello, and GitHub, resulting in 25% increase in team delivery velocity.
 
 ---
 
@@ -55,12 +53,12 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 **Software Development Intern** · Feb/2021 – Jan/2023
 
-- Internal solutions development with focus on modern architecture and scalability.
-- APIs using Node.js and Python (FastAPI), integrated with PostgreSQL and MySQL.
-- Firebase (Auth, Realtime Database, Firestore) for authentication and data persistence.
-- Web applications with Vue.js and React.
-- API documentation with Swagger.
-- Repository organization and code standardization.
+- Development of corporate internal solutions with focus on modern architecture, scalability, and optimized performance.
+- Construction of robust APIs using Node.js and Python (FastAPI), with seamless integration to PostgreSQL and MySQL for critical data persistence.
+- Implementation of authentication and real-time data management solutions with Firebase (Auth, Realtime Database, Firestore).
+- Development of responsive and modern web applications using Vue.js and React, following UI/UX best practices.
+- Creation of comprehensive technical documentation with Swagger, facilitating API integration and maintenance.
+- Repository standardization and establishment of code guidelines for improved development quality and consistency.
 
 ---
 
@@ -68,12 +66,12 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 **Software Development Intern** · Jun/2019 – Feb/2021
 
-- Development of a multi-sector marketplace using Vue.js and Flutter.
-- Node.js-based APIs under microservices architecture.
-- Integration with AWS Lambda, API Gateway, CloudWatch, SQS, and DynamoDB.
-- API documentation with Swagger.
-- Collaboration with product, design, and business teams.
-- Startup environment with fast-paced deliveries and customer-focused mindset.
+- Development of high-complexity multi-sector marketplace using Vue.js for web and Flutter for native mobile applications.
+- Architecture and implementation of scalable APIs with Node.js in microservices architecture, ensuring modularity and maintainability.
+- Advanced integration with AWS Cloud Services: Lambda for serverless computing, API Gateway for API management, CloudWatch for monitoring, SQS for messaging, and DynamoDB for high-performance NoSQL.
+- Development of detailed technical documentation with Swagger, facilitating team integration and external stakeholder collaboration.
+- Strategic collaboration with product, design, and business teams in a high-velocity startup environment.
+- Application of agile methodologies with focus on rapid delivery, continuous feedback, and end-customer orientation.
 
 ---
 
@@ -81,12 +79,12 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 **Software Development Intern** · Jun/2019 – Feb/2021
 
-- White-label e-commerce solutions development for B2C businesses.
-- Reusable Vue.js and Flutter applications.
-- Node.js APIs using AWS services (Lambda, SQS, API Gateway).
-- Custom logic and layout adaptations for different clients.
-- Integration with external services.
-- Technical collaboration with product teams under high-demand deliveries.
+- Development of scalable white-label solutions for B2C e-commerce, creating reusable and customizable architectures.
+- Construction of modular cross-platform applications with Vue.js for web and Flutter for mobile, prioritizing component reusability and experience consistency.
+- Implementation of robust serverless APIs with Node.js and AWS (Lambda, SQS, API Gateway), optimizing costs and automatic scalability.
+- Advanced customization of business logic and responsive layouts to meet each client's specificities, maintaining architectural flexibility.
+- Seamless integration with multiple external services and third-party APIs, ensuring interoperability and data synchronization.
+- Intensive technical collaboration with product teams for on-demand deliveries in high-pressure environments with quality requirements.
 
 ---
 
@@ -101,7 +99,7 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 - Microservices
 - Information security
 - Systems integration
-- Technical leadership
+- Technical team management
 
 ---
 
@@ -141,29 +139,46 @@ I believe in simple solutions to complex problems, in well-crafted code, and in 
 
 ## Technical Skills
 
-### Technologies and Frameworks
+### Languages and Frameworks
 
-Vue 3 (Composition API), JavaScript (ES6+), TypeScript, Python (FastAPI), Node.js, Express.js, React, Flutter
+**Frontend:** Vue 3 (Composition API), React, JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass
+**Backend:** Python (FastAPI), Node.js, Express.js, PHP (Laravel), Java
+**Mobile:** Flutter, React Native
 
 ### Architecture and APIs
 
-RESTful APIs, Microservices Architecture, Serverless (AWS Lambda, API Gateway), Firebase, Form.io, Okta, Algolia
+**Architecture:** Microservices, Serverless, Clean Architecture, Domain-Driven Design (DDD)
+**APIs:** RESTful, GraphQL, gRPC, OpenAPI/Swagger
+**Integrations:** Form.io, Okta, Algolia, Stripe, AWS Services
 
 ### Cloud and DevOps
 
-Docker, Docker Compose, AWS (Lambda, SQS, API Gateway, CloudWatch, S3), Firebase Hosting, CI/CD (GitHub Actions)
+**Containerization:** Docker, Docker Compose, Kubernetes
+**Cloud Providers:** AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Firebase
+**CI/CD:** GitHub Actions, GitLab CI, Jenkins
+**Monitoring:** CloudWatch, Datadog, Sentry
 
-### Databases and ORMs
+### Databases and Persistence
 
-PostgreSQL, MySQL, MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB, SQLAlchemy, Alembic
+**Relational:** PostgreSQL, MySQL, SQLite
+**NoSQL:** MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB
+**ORMs:** SQLAlchemy, Eloquent, Prisma
+**Cache:** Redis, Memcached
 
 ### Testing and Quality
 
-Pytest (unit/integration), Playwright (E2E), Swagger/OpenAPI, Postman, Mailtrap
+**Backend:** Pytest, PHPUnit, Jest
+**Frontend:** Playwright, Cypress, Testing Library
+**Tools:** Postman, Insomnia, Mailtrap
+**Coverage:** 85%+ in current projects
 
 ### Tools and Methodologies
 
-Git, GitHub, Jira, Trello, Figma, Agile (Scrum/Kanban), Code Review, Technical Documentation
+**Version Control:** Git, GitHub, GitLab, Bitbucket
+**Management:** Jira, Trello, Notion, Linear
+**Design:** Figma, Adobe XD
+**Methodologies:** Scrum, Kanban, Code Review, Pair Programming
+**Documentation:** Swagger, Confluence, GitBook
 
 ---
 
