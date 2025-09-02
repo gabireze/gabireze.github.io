@@ -141,43 +141,43 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 ### Linguagens e Frameworks
 
-**Frontend:** Vue 3 (Composition API), React, JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass
-**Backend:** Python (FastAPI), Node.js, Express.js, PHP (Laravel), Java
+**Frontend:** Vue 3 (Composition API), React, JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass  
+**Backend:** Python (FastAPI), Node.js, Express.js, PHP (Laravel), Java  
 **Mobile:** Flutter, React Native
 
 ### Arquitetura e APIs
 
-**Arquitetura:** Microserviços, Serverless, Clean Architecture, Domain-Driven Design (DDD)
-**APIs:** RESTful, GraphQL, gRPC, OpenAPI/Swagger
+**Arquitetura:** Microserviços, Serverless, Clean Architecture, Domain-Driven Design (DDD)  
+**APIs:** RESTful, GraphQL, gRPC, OpenAPI/Swagger  
 **Integrações:** Form.io, Okta, Algolia, Stripe, AWS Services
 
 ### Cloud e DevOps
 
-**Containerização:** Docker, Docker Compose, Kubernetes
-**Cloud Providers:** AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Firebase
-**CI/CD:** GitHub Actions, GitLab CI, Jenkins
+**Containerização:** Docker, Docker Compose, Kubernetes  
+**Cloud Providers:** AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Firebase  
+**CI/CD:** GitHub Actions, GitLab CI, Jenkins  
 **Monitoramento:** CloudWatch, Datadog, Sentry
 
 ### Bancos de Dados e Persistência
 
-**Relacionais:** PostgreSQL, MySQL, SQLite
-**NoSQL:** MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB
-**ORMs:** SQLAlchemy, Eloquent, Prisma
+**Relacionais:** PostgreSQL, MySQL, SQLite  
+**NoSQL:** MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB  
+**ORMs:** SQLAlchemy, Eloquent, Prisma  
 **Cache:** Redis, Memcached
 
 ### Testes e Qualidade
 
-**Backend:** Pytest, PHPUnit, Jest
-**Frontend:** Playwright, Cypress, Testing Library
-**Ferramentas:** Postman, Insomnia, Mailtrap
+**Backend:** Pytest, PHPUnit, Jest  
+**Frontend:** Playwright, Cypress, Testing Library  
+**Ferramentas:** Postman, Insomnia, Mailtrap  
 **Cobertura:** 85%+ em projetos atuais
 
 ### Ferramentas e Metodologias
 
-**Versionamento:** Git, GitHub, GitLab, Bitbucket
-**Gestão:** Jira, Trello, Notion, Linear
-**Design:** Figma, Adobe XD
-**Metodologias:** Scrum, Kanban, Code Review, Pair Programming
+**Versionamento:** Git, GitHub, GitLab, Bitbucket  
+**Gestão:** Jira, Trello, Notion, Linear  
+**Design:** Figma, Adobe XD  
+**Metodologias:** Scrum, Kanban, Code Review, Pair Programming  
 **Documentação:** Swagger, Confluence, GitBook
 
 ---
