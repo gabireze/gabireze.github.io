@@ -23,7 +23,7 @@
   lamp.addEventListener("click", () =>
     toggleTheme(localStorage.getItem("theme"))
   );
-  
+
   lamp.addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
@@ -55,16 +55,18 @@
   });
 
   // Improved heading click handler with better URL management
-  const headings = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
-  
+  const headings = document.querySelectorAll(
+    "h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]"
+  );
+
   headings.forEach((heading) => {
     // Add cursor pointer for better UX
     heading.style.cursor = "pointer";
-    
+
     heading.addEventListener("click", (e) => {
       // Prevent default if clicking on anchor links
       if (e.target.tagName === "A") return;
-      
+
       if (window.location.hash) {
         // Use replaceState for better browser history management
         history.replaceState(
@@ -74,7 +76,7 @@
         );
       }
     });
-    
+
     // Add keyboard navigation support
     heading.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
@@ -84,21 +86,21 @@
   });
 
   // Add smooth scrolling for anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
+      const target = document.querySelector(this.getAttribute("href"));
       if (target) {
         target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
+          behavior: "smooth",
+          block: "start",
         });
       }
     });
   });
 
   // Add loading state management
-  window.addEventListener('load', () => {
-    document.body.classList.add('loaded');
+  window.addEventListener("load", () => {
+    document.body.classList.add("loaded");
   });
 })();

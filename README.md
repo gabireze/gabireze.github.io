@@ -196,10 +196,6 @@ The site supports **light theme** and **dark theme** with automatic switching:
 - **GitHub:** [github.com/gabireze](https://github.com/gabireze)
 - **Email:** [contato@gabireze.com.br](mailto:contato@gabireze.com.br)
 
-### Social Media
-- **Twitter:** [@gabireze_](https://twitter.com/gabireze_)
-- **Facebook:** [facebook.com/gabireze](https://facebook.com/gabireze)
-
 ---
 
 ## License

@@ -18,7 +18,7 @@ layout: compress
         cookie_domain: "gabireze.com.br",
         cookie_flags: "SameSite=None;Secure",
         anonymize_ip: true,
-        custom_parameter: true
+        custom_parameter: true,
       });
     </script>
     <script
@@ -42,19 +42,19 @@ layout: compress
       };
 
       initTheme(localStorage.getItem("theme"));
-      
+
       // Improved transition timing
       setTimeout(() => {
         body.classList.remove("notransition");
         body.classList.add("loaded");
       }, 75);
-      
+
       // Preload critical resources
-      if ('requestIdleCallback' in window) {
+      if ("requestIdleCallback" in window) {
         requestIdleCallback(() => {
-          const link = document.createElement('link');
-          link.rel = 'prefetch';
-          link.href = '/assets/pdf/curriculo.pdf';
+          const link = document.createElement("link");
+          link.rel = "prefetch";
+          link.href = "/assets/pdf/curriculo.pdf";
           document.head.appendChild(link);
         });
       }
@@ -65,7 +65,7 @@ layout: compress
     <div class="wrapper">
       <main aria-label="Content">{{ content }}</main>
     </div>
-    
+
     <!-- JS principal carregado no final para melhor performance -->
     <script src="/assets/js/main.js" defer></script>
   </body>
