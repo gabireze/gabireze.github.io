@@ -30,11 +30,25 @@ layout: compress
       <main aria-label="Content">
         <section class="not-found">
           <div class="container" id="not-found-container">
+            <!-- Conteúdo padrão que será substituído pelo JavaScript -->
+            <h1 class="title">404</h1>
+            <p class="phrase">A página que você procura não foi encontrada.</p>
+            <a class="solution" href="/">Voltar para a página inicial</a>
+
             <noscript>
-              <h1 class="title">404</h1>
-              <p class="phrase">
-                Por favor, ative o JavaScript para ver esta página.
-              </p>
+              <style>
+                .js-content {
+                  display: none;
+                }
+              </style>
+              <div class="noscript-content">
+                <h1 class="title">404</h1>
+                <p class="phrase">
+                  Por favor, ative o JavaScript para melhor experiência ou use
+                  os links de navegação.
+                </p>
+                <a class="solution" href="/">Voltar para a página inicial</a>
+              </div>
             </noscript>
           </div>
         </section>
@@ -44,7 +58,17 @@ layout: compress
     <script>
       window.addEventListener("DOMContentLoaded", function () {
         const container = document.getElementById("not-found-container");
-        const isEnglish = window.location.pathname.startsWith("/en");
+
+        if (!container) {
+          console.error("Container not-found-container não encontrado");
+          return;
+        }
+
+        // Detectar se é versão em inglês
+        const isEnglish =
+          window.location.pathname.startsWith("/en") ||
+          window.location.search.includes("lang=en") ||
+          document.documentElement.lang === "en";
 
         const html = isEnglish
           ? `
@@ -58,13 +82,21 @@ layout: compress
           <a class="solution" href="/">Voltar para a página inicial</a>
         `;
 
+        // Substituir o conteúdo
         container.innerHTML = html;
 
-        // Adicionar focus no título para leitores de tela
+        // Adicionar focus no título para acessibilidade
         const title = container.querySelector("h1");
         if (title) {
+          title.setAttribute("tabindex", "-1");
           title.focus();
         }
+
+        // Log para debug
+        console.log("Página 404 carregada com sucesso", {
+          isEnglish,
+          pathname: window.location.pathname,
+        });
       });
     </script>
     <script src="/assets/js/main.js" defer></script>
