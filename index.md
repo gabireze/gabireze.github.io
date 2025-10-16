@@ -51,7 +51,7 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 ### Encora Inc.
 
-**Estagiário de Desenvolvimento de Software** · Fev/2021 – Jan/2023
+**Estagiário de Engenharia de Software** · Fev/2021 – Jan/2023
 
 - Desenvolvimento de soluções corporativas internas com foco em arquitetura moderna, resultando em 30% de melhoria na eficiência operacional.
 - Construção de APIs robustas utilizando Node.js e Python (FastAPI), com integração seamless a PostgreSQL e MySQL para persistência de dados críticos de negócio.
@@ -64,7 +64,7 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 ### SuperOpa
 
-**Estagiário de Desenvolvimento de Software** · Jun/2019 – Fev/2021
+**Estagiário de Engenharia de Software** · Jun/2019 – Fev/2021
 
 - Desenvolvimento de marketplace multissetorial com múltiplas categorias de produtos utilizando Vue.js para web e Flutter para aplicações móveis nativas, atendendo 10.000+ usuários ativos.
 - Arquitetura e implementação de APIs escaláveis com Node.js em arquitetura de microserviços, garantindo modularidade, manutenibilidade e escalabilidade horizontal.
@@ -77,7 +77,7 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 ### OpaBox
 
-**Estagiário de Desenvolvimento de Software** · Jun/2019 – Fev/2021
+**Estagiário de Engenharia de Software** · Jun/2019 – Fev/2021
 
 - Desenvolvimento de soluções white-label escaláveis para e-commerces B2C, criando arquiteturas reutilizáveis que foram implementadas em 15+ clientes.
 - Construção de aplicações cross-platform modulares com Vue.js para web e Flutter para mobile, priorizando reutilização de componentes e consistência de experiência do usuário.
