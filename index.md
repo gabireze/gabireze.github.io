@@ -9,13 +9,13 @@ cover-img: /assets/img/social-preview.png
 
 ## Resumo Profissional
 
-Engenheiro de Software especializado em arquiteturas escaláveis e soluções full stack de alta performance. Formado em Engenharia de Software pela PUC Campinas e cursando MBA em Arquitetura de Soluções na FIAP, com expertise comprovada em cloud computing, microsserviços e design de sistemas distribuídos.
+Engenheiro de Software Full Stack especializado em arquiteturas escaláveis e design de sistemas distribuídos. Formado em Engenharia de Software pela PUC Campinas e atualmente cursando MBA em Arquitetura de Soluções na FIAP, com foco em cloud computing, microsserviços e integração de sistemas complexos. Possuo experiência internacional através de intercâmbio no Canadá, onde aprimorei comunicação técnica em inglês avançado.
 
-Possuo experiência sólida no desenvolvimento de aplicações modernas utilizando Vue 3, JavaScript, TypeScript, Node.js e Python (FastAPI), com foco na construção de APIs RESTful robustas e aplicações web escaláveis. Domino tecnologias de containerização com Docker, versionamento avançado com Git, e possuo expertise em diversos bancos de dados incluindo PostgreSQL, MySQL, DynamoDB e Firebase.
+Com mais de 6 anos de experiência em consultorias de tecnologia, atuei em projetos para clientes de diferentes portes e segmentos, abrangendo desde startups de alto crescimento até corporações consolidadas. Comecei desenvolvendo soluções full stack white-label e marketplaces, evoluí para arquiteturas de microserviços em projetos enterprise complexos na Encora Inc, e atualmente lidero o desenvolvimento completo de módulos críticos na levva, trabalhando em toda a stack com Laravel, Angular e integrações com sistemas legados.
 
-Especialista em integração de sistemas complexos e plataformas como Form.io, Okta e Algolia. Tenho vasta experiência em metodologias ágeis, entrega contínua e mentoria técnica, colaborando efetivamente com equipes multidisciplinares de produto, design e engenharia para entregar soluções que geram resultados mensuráveis para o negócio.
+Entreguei resultados mensuráveis em automação de processos, otimização de performance e desenvolvimento de sistemas críticos com alta confiabilidade em produção. Tenho expertise em desenvolvimento full stack, desde a construção de APIs RESTful robustas até interfaces administrativas complexas, trabalhando com arquiteturas escaláveis como multi-tenant e microsserviços. Domino tecnologias modernas de frontend (Vue, React, Angular, TypeScript), backend (Python, PHP, Node.js), containerização (Docker, Kubernetes) e cloud computing (AWS, Azure, Firebase), com experiência sólida em integrações com plataformas externas e ferramentas corporativas.
 
-Comprometido com excelência técnica através de testes automatizados (Pytest, Playwright), pipelines de CI/CD otimizados e documentação técnica abrangente. Acredito na construção de soluções elegantes para desafios complexos, priorizando código limpo, performance e evolução técnica contínua.
+Comprometido com excelência técnica através da aplicação consistente de design patterns (Repository, Service Layer, Observer, Command), Clean Architecture e DDD. Mantenho cobertura elevada de testes automatizados (Pytest, Playwright, Jest), documentação técnica abrangente com Swagger/OpenAPI e práticas rigorosas de code review. Forte atuação em metodologias ágeis (Scrum/Kanban), colaboração efetiva com equipes multidisciplinares e foco constante na entrega de soluções que geram valor mensurável para o negócio, equilibrando inovação técnica com pragmatismo e evolução contínua.
 
 ---
 
@@ -27,11 +27,18 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 **Engenheiro de Software Pleno** · Jul/2025 – Atual
 
-- Desenvolvimento e arquitetura de soluções backend escaláveis para o setor securitário, com especialização em seguros agrícolas para proteção de lavouras e maquinário agrícola.
-- Design e implementação de APIs RESTful de alta performance e sistemas de gestão empresarial utilizando PHP, Laravel e MySQL, priorizando confiabilidade e escalabilidade.
-- Criação de funcionalidades críticas para corretoras de seguros, incluindo gestão automatizada de apólices, processamento inteligente de sinistros e workflows complexos de aprovação.
-- Integração estratégica com sistemas externos e APIs de terceiros no ecossistema do agronegócio, garantindo interoperabilidade e sincronização eficiente de dados.
-- Colaboração direta com stakeholders de negócio e equipes de produto, aplicando metodologias ágeis para entregar soluções que impactam diretamente o crescimento da empresa.
+- Responsável pelo desenvolvimento completo do módulo de Seguros de Máquinas Agrícolas, entregando 51+ PRs em arquitetura full stack com Laravel/PHP, Angular 15 e integrações com sistemas legados
+- Automatizei sincronização com sistema legado eliminando 20h/semana de trabalho manual através de integração bidirecional com Command agendado, mapeamento de dados heterogêneos, deduplicação inteligente e APIs para gestão comercial
+- Implementei arquitetura multi-tenant completa com sistema de licenças para múltiplos clientes e canais comerciais, taxas de cobertura por região (Nacional, Estado, Cidade), incluindo suporte a seguros plurianuais (2-5 anos) com coeficientes progressivos e validações complexas de conflitos
+- Desenvolvi sistema completo de cotações com rascunhos de expiração configurável, notificações preventivas, cancelamento automático de cotações vencidas e geração de PDFs de termo de autorização, reduzindo perda de dados em 40%
+- Criei dashboard de estatísticas e KPIs com métricas de conversão, churn e distribuição por status, resumos mensais e queries otimizadas com agregações complexas para tomada de decisão em tempo real
+- Implementei sistema de notificações internas e emails automáticos em mudanças de status, alertas de expiração de rascunhos, templates profissionais e segmentação por perfil de usuário utilizando Observer Pattern
+- Desenvolvi 40+ endpoints REST documentados com Swagger/OpenAPI completo incluindo exemplos de request/response, validações robustas, paginação padronizada e tratamento de erros
+- Otimizei pipeline CI/CD do Azure reduzindo tempo de build em 40% e uso de memória em 50%, resolvendo falhas críticas de OOM através de cache npm e tuning de Webpack
+- Construí interface administrativa com Angular 15 incluindo sistema de rascunhos com URLs persistentes e compartilháveis, seleção editável de coberturas multi-select, redirecionamentos inteligentes e correção de bugs críticos de UX
+- Implementei 15+ models, 5+ Commands agendados, Service Layer e Repository Pattern em todas as features, com tracking via Application Insights, migrations versionadas e relacionamentos complexos
+- Padronizei toda documentação técnica com exemplos Swagger completos, guias de onboarding e documentação de cada PR para facilitar manutenção
+- Integrei sistema com plataformas externas de CRM e seguradoras aplicando design patterns (Service Layer, Repository, Observer, Command) com zero bugs críticos em produção
 
 ---
 
@@ -139,46 +146,77 @@ Comprometido com excelência técnica através de testes automatizados (Pytest, 
 
 ## Habilidades Técnicas
 
-### Linguagens e Frameworks
+### Backend
 
-**Frontend:** Vue 3 (Composition API), React, JavaScript (ES6+), TypeScript, HTML5, CSS3/Sass  
-**Backend:** Python (FastAPI), Node.js, Express.js, PHP (Laravel), Java  
-**Mobile:** Flutter, React Native
+Python (FastAPI), Node.js (Express.js), PHP (Laravel), Java
 
-### Arquitetura e APIs
+### Frontend
 
-**Arquitetura:** Microserviços, Serverless, Clean Architecture, Domain-Driven Design (DDD)  
-**APIs:** RESTful, GraphQL, gRPC, OpenAPI/Swagger  
-**Integrações:** Form.io, Okta, Algolia, Stripe, AWS Services
+Vue 3 (Composition API), React, Next.js, Angular, TypeScript, Nuxt.js, JavaScript (ES6+), HTML5, CSS3/Sass
 
-### Cloud e DevOps
+### Mobile
 
-**Containerização:** Docker, Docker Compose, Kubernetes  
-**Cloud Providers:** AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Firebase  
-**CI/CD:** GitHub Actions, GitLab CI, Jenkins  
-**Monitoramento:** CloudWatch, Datadog, Sentry
+Flutter, React Native
 
-### Bancos de Dados e Persistência
+### Arquitetura
 
-**Relacionais:** PostgreSQL, MySQL, SQLite  
-**NoSQL:** MongoDB, Firebase Realtime Database, Firestore, Amazon DynamoDB  
-**ORMs:** SQLAlchemy, Eloquent, Prisma  
-**Cache:** Redis, Memcached
+Microsserviços, Serverless, Clean Architecture, DDD (Domain-Driven Design), Event-Driven, TOGAF, BPMN, Service Layer Pattern, Repository Pattern, Observer Pattern
+
+### APIs
+
+RESTful, GraphQL, gRPC, OpenAPI/Swagger
+
+### Cloud Providers
+
+AWS (Lambda, SQS, API Gateway, CloudWatch, S3, EC2), Azure, Firebase, GCP
+
+### Containerização
+
+Docker, Docker Compose, Kubernetes
+
+### Infraestrutura e DevOps
+
+Docker, Kubernetes, PM2, KVM, Linux, Terraform, Ansible
+
+### CI/CD
+
+GitHub Actions, GitLab CI, Jenkins, Azure Pipelines
+
+### Bancos de Dados e Streaming
+
+PostgreSQL, MySQL, SQLite, MongoDB, DynamoDB, Firestore, Redis, Kafka, Kinesis, Debezium, Hadoop
+
+### ORMs
+
+SQLAlchemy, Eloquent, Prisma
+
+### Cache
+
+Redis, Memcached
+
+### IA e Analytics
+
+Machine Learning aplicado, LLMs, IA para produto e automação, Análise de dados
+
+### Integrações e APIs
+
+RESTful APIs, GraphQL, Swagger/OpenAPI, Okta, Form.io, Algolia, Stripe, AWS Services
 
 ### Testes e Qualidade
 
-**Backend:** Pytest, PHPUnit, Jest  
-**Frontend:** Playwright, Cypress, Testing Library  
-**Ferramentas:** Postman, Insomnia, Mailtrap  
-**Cobertura:** 85%+ em projetos atuais
+Pytest, PHPUnit, Jest, Playwright, Cypress, Testing Library, Postman, Insomnia, Mailtrap
 
-### Ferramentas e Metodologias
+### CI/CD e Observabilidade
 
-**Versionamento:** Git, GitHub, GitLab, Bitbucket  
-**Gestão:** Jira, Trello, Notion, Linear  
-**Design:** Figma, Adobe XD  
-**Metodologias:** Scrum, Kanban, Code Review, Pair Programming  
-**Documentação:** Swagger, Confluence, GitBook
+GitHub Actions, GitLab CI, Jenkins, Azure Pipelines, Datadog, Sentry, CloudWatch
+
+### Gestão e Metodologias
+
+Git, GitHub, GitLab, Bitbucket, Jira, Trello, Confluence, Notion, Linear, Figma, Adobe XD, Agile (Scrum/Kanban), OKRs, KPIs, Code Review, Pair Programming
+
+### Documentação
+
+Swagger, Confluence, GitBook
 
 ---
 
