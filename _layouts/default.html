@@ -49,21 +49,16 @@ layout: compress
         body.classList.add("loaded");
       }, 75);
 
-      // Preload critical resources
-      if ("requestIdleCallback" in window) {
-        requestIdleCallback(() => {
-          const link = document.createElement("link");
-          link.rel = "prefetch";
-          link.href = "/assets/pdf/curriculo.pdf";
-          document.head.appendChild(link);
-        });
-      }
     </script>
 
     {% include navbar.html %}
 
     <div class="wrapper">
-      <main aria-label="Content">{{ content }}</main>
+      <main
+        aria-label="{% if page.lang == 'en' %}Content{% else %}Conteúdo principal{% endif %}"
+      >
+        {{ content }}
+      </main>
     </div>
 
     <!-- JS principal carregado no final para melhor performance -->

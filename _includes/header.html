@@ -5,60 +5,70 @@
   <meta name="robots" content="index, follow" />
   <meta name="googlebot" content="index, follow" />
 
-  <title>{{ site.title }}</title>
+  {%- assign meta_title = page.seo_title | default: page.title | default: site.title -%}
+  {%- assign meta_desc = page.description | default: site.description | strip_html | normalize_whitespace -%}
+  {%- assign meta_keywords = page.keywords | default: site.keywords -%}
+  {%- assign canonical_path = page.url | replace: 'index.html', '' -%}
+  {%- if canonical_path == '' -%}
+    {%- assign canonical_path = '/' -%}
+  {%- endif -%}
+  {%- assign canonical_url = canonical_path | absolute_url -%}
+  {%- assign pt_url = '/' | absolute_url -%}
+  {%- assign en_url = '/en/' | absolute_url -%}
+  {%- assign page_lang = page.lang | default: site.lang | default: 'pt-BR' -%}
+  {%- if page_lang == 'en' -%}
+    {%- assign og_locale_primary = 'en_US' -%}
+    {%- assign og_locale_alt = 'pt_BR' -%}
+  {%- else -%}
+    {%- assign og_locale_primary = 'pt_BR' -%}
+    {%- assign og_locale_alt = 'en_US' -%}
+  {%- endif -%}
+  {%- if page.lang == 'en' -%}
+    {%- assign schema_job = 'Full Stack Software Engineer' -%}
+  {%- else -%}
+    {%- assign schema_job = 'Engenheiro de Software Full Stack' -%}
+  {%- endif -%}
+
+  <title>{{ meta_title | escape }}</title>
 
   <meta
     name="description"
-    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}"
+    content="{{ meta_desc | truncate: 160 | escape }}"
   />
   <meta name="author" content="{{ site.author.name }}" />
   <meta name="referrer" content="no-referrer-when-downgrade" />
-  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta name="keywords" content="{{ meta_keywords | escape }}" />
 
-  <!-- Language and Canonical URLs -->
-  <link
-    rel="alternate"
-    hreflang="pt-br"
-    href="{{ '/index.html' | relative_url | absolute_url }}"
-  />
-  <link
-    rel="alternate"
-    hreflang="en"
-    href="{{ '/en.html' | relative_url | absolute_url }}"
-  />
-  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  <!-- Idioma, hreflang e URL canônica (evita snippet errado e duplicação PT/EN) -->
+  <link rel="alternate" hreflang="pt-BR" href="{{ pt_url }}" />
+  <link rel="alternate" hreflang="en" href="{{ en_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ pt_url }}" />
+  <link rel="canonical" href="{{ canonical_url }}" />
 
   <!-- Open Graph -->
-  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:site_name" content="{{ site.title | escape }}" />
   <meta property="og:type" content="website" />
-  <meta
-    property="og:title"
-    content="{{ page.title | default: site.title | escape }}"
-  />
+  <meta property="og:title" content="{{ meta_title | escape }}" />
   <meta
     property="og:description"
-    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape }}"
+    content="{{ meta_desc | truncate: 200 | escape }}"
   />
-  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:url" content="{{ canonical_url }}" />
   <meta
     property="og:image"
     content="{{ page.image | default: site.image | absolute_url }}"
   />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:locale" content="{{ site.lang | default: 'pt_BR' }}" />
-  <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:locale:alternate" content="pt_BR" />
+  <meta property="og:locale" content="{{ og_locale_primary }}" />
+  <meta property="og:locale:alternate" content="{{ og_locale_alt }}" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="{{ page.title | default: site.title | escape }}"
-  />
+  <meta name="twitter:title" content="{{ meta_title | escape }}" />
   <meta
     name="twitter:description"
-    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 | escape }}"
+    content="{{ meta_desc | truncate: 200 | escape }}"
   />
   <meta
     name="twitter:image"
@@ -72,41 +82,59 @@
   <link rel="me" href="https://github.com/{{ site.author.github }}" />
   <link rel="me" href="https://linkedin.com/in/{{ site.author.linkedin }}" />
 
-  <!-- Structured data com JSON-LD melhorado -->
+  <!-- JSON-LD: Person + WebSite -->
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "{{ site.author.name }}",
-      "url": "{{ site.url }}",
-      "jobTitle": "Software Engineer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Levva"
-      },
-      "alumniOf": [
+      "@context": "https://schema.org",
+      "@graph": [
         {
-          "@type": "EducationalOrganization",
-          "name": "PUC Campinas"
+          "@type": "WebSite",
+          "@id": "{{ '/' | absolute_url }}#website",
+          "url": "{{ '/' | absolute_url }}",
+          "name": {{ site.title | jsonify }},
+          "inLanguage": ["pt-BR", "en"],
+          "publisher": { "@id": "{{ '/' | absolute_url }}#person" }
         },
         {
-          "@type": "EducationalOrganization",
-          "name": "FIAP"
+          "@type": "Person",
+          "@id": "{{ '/' | absolute_url }}#person",
+          "name": {{ site.author.name | jsonify }},
+          "url": {{ site.url | jsonify }},
+          "jobTitle": {{ schema_job | jsonify }},
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Levva"
+          },
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "PUC Campinas"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "FIAP"
+            }
+          ],
+          "knowsLanguage": ["pt-BR", "en"],
+          "knowsAbout": [
+            "Angular",
+            "TypeScript",
+            "Laravel",
+            "Python",
+            "Vue.js",
+            "REST APIs",
+            "Software Architecture",
+            "Generative AI",
+            "Machine Learning",
+            "AWS",
+            "Azure"
+          ],
+          "sameAs": [
+            "https://github.com/{{ site.author.github }}",
+            "https://twitter.com/{{ site.author.twitter }}",
+            "https://linkedin.com/in/{{ site.author.linkedin }}"
+          ]
         }
-      ],
-      "knowsAbout": [
-        "JavaScript",
-        "Vue.js",
-        "React",
-        "Python",
-        "Laravel",
-        "AWS",
-        "Software Architecture"
-      ],
-      "sameAs": [
-        "https://github.com/{{ site.author.github }}",
-        "https://twitter.com/{{ site.author.twitter }}",
-        "https://linkedin.com/in/{{ site.author.linkedin }}"
       ]
     }
   </script>
@@ -131,8 +159,8 @@
   />
   <link rel="manifest" href="/assets/favicons/site.webmanifest" />
   <meta name="theme-color" content="#0d0d0d" />
-  <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
-  <meta name="application-name" content="{{ site.title }}" />
+  <meta name="apple-mobile-web-app-title" content="{{ site.title | escape }}" />
+  <meta name="application-name" content="{{ site.title | escape }}" />
   <meta name="msapplication-TileColor" content="#da532c" />
 
   <!-- Styles -->

@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-gabireze-181717?style=for-the-badge&logo=github)](https://github.com/gabireze)
 [![Email](https://img.shields.io/badge/Email-contato@gabireze.com.br-D14836?style=for-the-badge&logo=gmail)](mailto:contato@gabireze.com.br)
 
-> **Software Engineer specialized in Vue.js, React, Laravel & Python | MBA in Solutions Architecture | 6+ years transforming ideas into scalable solutions**
+> **Full stack software engineer · Angular, Laravel, Python · MBA in Solution Architecture (FIAP) · scalable systems and integrations**
 
 ## About This Repository
 
@@ -19,24 +19,19 @@ This repository contains the source code for my **personal website and professio
 
 ## About Me
 
-**Software Engineer** with **6+ years of experience** in full stack development, specialized in:
+**Full stack software engineer** focused on **Angular**, **Laravel**, **Python**, integrations with legacy systems, and solution architecture.
 
-- **Frontend:** Vue 3, React, JavaScript/TypeScript
-- **Backend:** Python (FastAPI), Node.js, PHP (Laravel)
-- **Cloud:** AWS, Firebase, Docker, Kubernetes
-- **Databases:** PostgreSQL, MySQL, MongoDB, DynamoDB
-- **DevOps:** CI/CD, GitHub Actions, Docker
+- **Frontend:** Angular, Vue 3, React, TypeScript
+- **Backend:** Python (FastAPI), PHP (Laravel), Node.js
+- **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, CI/CD
 
 ### Education
-- **MBA in Solutions Architecture** - FIAP (2025-2026)
-- **Software Engineering** - PUC Campinas (2019-2023)
-- **Academic Exchange** - Vancouver, Canada (2022)
+- **MBA in Solution Architecture** — FIAP (2025–2026)
+- **Bachelor’s in Software Engineering** — PUC Campinas (2019–2023)
+- **Academic exchange** — Vancouver, Canada (2022)
 
-### Current Experience
-**Software Engineer** at [Levva](https://levva.com.br) (Jul/2025 - Present)
-- Development of solutions for the agricultural insurance sector
-- RESTful API architecture with PHP/Laravel
-- Integration with agribusiness systems
+### Current role
+**Software Engineer** at [Levva](https://levva.com.br) (Jul/2025 — present): consulting projects including **financial-sector** frontend (Angular, landing pages) and prior **full stack** delivery (e.g. Laravel, APIs, Azure CI/CD).
 
 ---
 
@@ -45,7 +40,7 @@ This repository contains the source code for my **personal website and professio
 ### Framework & Technologies
 - **Jekyll** - Static site generator
 - **Liquid** - Template engine
-- **Sass/SCSS** - CSS preprocessor
+- **Sass (Dart Sass)** - CSS with `@use` modules (no legacy `@import` in the main pipeline)
 - **JavaScript (ES6+)** - Interactivity
 - **Markdown** - Content
 
@@ -62,7 +57,7 @@ This repository contains the source code for my **personal website and professio
 - **GitHub Pages** - Free and reliable hosting
 - **Custom Domain** - gabireze.com.br
 - **HTTPS** - Automatic SSL certificate
-- **Automatic Deploy** - Continuous integration with GitHub Actions
+- **GitHub Actions** - CI workflow runs `jekyll build` on push/PR (`/.github/workflows/jekyll.yml`)
 
 ---
 
@@ -111,18 +106,21 @@ bundle exec jekyll clean
 ```
 gabireze.github.io/
 ├── index.md                 # Main page (PT)
-├── en.md                    # English page (EN)
+├── en.md                    # English home (EN)
+├── en/                      # Extra EN pages (legal, etc.)
 ├── _config.yml              # Jekyll configuration
 ├── _layouts/                # HTML templates
 │   ├── default.html         # Base layout
 │   ├── home.html           # Home layout
+│   ├── page.html           # Simple inner pages (legal)
 │   └── 404.html            # Error page
 ├── _includes/               # Reusable components
 │   ├── header.html         # Meta tags and SEO
 │   ├── navbar.html         # Navigation menu
 │   └── anchor_headings.html # Automatic anchors
 ├── _sass/                   # SCSS styles
-│   ├── main.scss           # Main file
+│   ├── main.scss           # Main file (@use)
+│   ├── _variables.scss     # Theme variables + shared placeholders
 │   └── klise/              # Theme components
 ├── assets/                  # Static resources
 │   ├── css/                # Compiled CSS

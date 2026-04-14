@@ -1,12 +1,30 @@
+{%- assign is_en = false -%}
+{%- if page.url contains '/en' or page.lang == 'en' -%}
+  {%- assign is_en = true -%}
+{%- endif -%}
+{%- if is_en -%}
+  {%- assign aria_nav_toggle = "Toggle navigation menu" -%}
+  {%- assign aria_menu_label = "Menu" -%}
+  {%- assign aria_theme = "Toggle color theme" -%}
+  {%- assign label_light = "Light mode" -%}
+  {%- assign label_dark = "Dark mode" -%}
+{%- else -%}
+  {%- assign aria_nav_toggle = "Abrir ou fechar menu de navegação" -%}
+  {%- assign aria_menu_label = "Menu" -%}
+  {%- assign aria_theme = "Alternar tema claro ou escuro" -%}
+  {%- assign label_light = "Modo claro" -%}
+  {%- assign label_dark = "Modo escuro" -%}
+{%- endif -%}
+
 <div class="navbar" role="navigation">
   <nav class="menu">
     <input
       type="checkbox"
       id="menu-trigger"
       class="menu-trigger"
-      aria-label="Toggle navigation menu"
+      aria-label="{{ aria_nav_toggle }}"
     />
-    <label for="menu-trigger" aria-label="Menu">
+    <label for="menu-trigger" aria-label="{{ aria_menu_label }}">
       <span class="menu-icon" aria-hidden="true">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -22,12 +40,11 @@
       </span>
     </label>
 
-    <!-- Botão de alternância de tema -->
-    <a id="mode" role="button" tabindex="0" aria-label="Alternar tema">
+    <a id="mode" role="button" tabindex="0" aria-label="{{ aria_theme }}">
       <svg
         class="light-mode"
-        title="Modo Claro"
-        aria-label="Modo Claro"
+        title="{{ label_light }}"
+        aria-label="{{ label_light }}"
         xmlns="http://www.w3.org/2000/svg"
         height="24px"
         viewBox="0 -960 960 960"
@@ -41,8 +58,8 @@
       </svg>
       <svg
         class="dark-mode"
-        title="Modo Escuro"
-        aria-label="Modo Escuro"
+        title="{{ label_dark }}"
+        aria-label="{{ label_dark }}"
         xmlns="http://www.w3.org/2000/svg"
         height="24px"
         viewBox="0 -960 960 960"
@@ -56,46 +73,46 @@
       </svg>
     </a>
 
-    <!-- Links do menu -->
     <div class="trigger">
       <div class="trigger-container">
-        {%- assign url = page.url -%} {%- assign menus = site.data.menus -%} {%-
-        assign is_en = page.url contains '/en' or page.lang == 'en' or site.lang
-        == 'en' -%} {%- for menu in menus -%} {%- if menu.title == "CV" -%} {%-
-        assign file_url = is_en | default: false | if: "/assets/pdf/resume.pdf",
-        "/assets/pdf/curriculo.pdf" -%} {%- assign file_name = is_en | default:
-        false | if: "Resume - Gabriel de Rezende Gonçalves.pdf", "CV - Gabriel
-        de Rezende Gonçalves.pdf" -%} {% if page.url contains '/en' or page.lang
-        == 'en' or site.lang == 'en' %}
-        <a
-          class="menu-link"
-          href="/assets/pdf/resume.pdf"
-          download="Resume - Gabriel de Rezende Gonçalves.pdf"
-        >
-          download resume
-        </a>
-        {% else %}
-        <a
-          class="menu-link"
-          href="/assets/pdf/curriculo.pdf"
-          download="CV - Gabriel de Rezende Gonçalves.pdf"
-        >
-          baixar cv
-        </a>
-        {% endif %} {%- else -%} {%- if url == menu.url -%}
-        <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
-        {%- else -%} {%- if menu.external -%}
-        <a
-          class="menu-link"
-          href="{{ menu.url }}"
-          target="_blank"
-          rel="noopener"
-        >
-          {{ menu.title }}
-        </a>
-        {%- else -%}
-        <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
-        {%- endif -%} {%- endif -%} {%- endif -%} {%- endfor -%}
+        {%- assign url = page.url -%}
+        {%- assign menus = site.data.menus -%}
+        {%- for menu in menus -%}
+          {%- if menu.title == "CV" -%}
+            {%- if is_en -%}
+              <a
+                class="menu-link"
+                href="/assets/pdf/resume.pdf"
+                download="Resume - Gabriel de Rezende Gonçalves.pdf"
+              >
+                download resume
+              </a>
+            {%- else -%}
+              <a
+                class="menu-link"
+                href="/assets/pdf/curriculo.pdf"
+                download="CV - Gabriel de Rezende Gonçalves.pdf"
+              >
+                baixar cv
+              </a>
+            {%- endif -%}
+          {%- else -%}
+            {%- if url == menu.url -%}
+              <a class="menu-link active" href="{{ menu.url }}">{{ menu.title }}</a>
+            {%- elsif menu.external -%}
+              <a
+                class="menu-link"
+                href="{{ menu.url }}"
+                target="_blank"
+                rel="noopener"
+              >
+                {{ menu.title }}
+              </a>
+            {%- else -%}
+              <a class="menu-link" href="{{ menu.url }}">{{ menu.title }}</a>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
       </div>
     </div>
   </nav>

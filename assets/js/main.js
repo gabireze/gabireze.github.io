@@ -1,4 +1,10 @@
 (() => {
+  const lang = document.documentElement.lang || "";
+  const isEn = lang.toLowerCase().startsWith("en");
+  const themeLabels = isEn
+    ? { toDark: "Switch to dark mode", toLight: "Switch to light mode" }
+    : { toDark: "Ativar modo escuro", toLight: "Ativar modo claro" };
+
   // Theme switch with improved accessibility and performance
   const body = document.body;
   const lamp = document.getElementById("mode");
@@ -7,15 +13,14 @@
     if (state === "dark") {
       localStorage.setItem("theme", "light");
       body.removeAttribute("data-theme");
-      lamp.setAttribute("aria-label", "Ativar modo escuro");
-      lamp.setAttribute("title", "Ativar modo escuro");
-    } else if (state === "light") {
+      lamp.setAttribute("aria-label", themeLabels.toDark);
+      lamp.setAttribute("title", themeLabels.toDark);
+    } else {
+      // "light", null, or first visit: default appearance is light → switch to dark
       localStorage.setItem("theme", "dark");
       body.setAttribute("data-theme", "dark");
-      lamp.setAttribute("aria-label", "Ativar modo claro");
-      lamp.setAttribute("title", "Ativar modo claro");
-    } else {
-      initTheme(state);
+      lamp.setAttribute("aria-label", themeLabels.toLight);
+      lamp.setAttribute("title", themeLabels.toLight);
     }
   };
 
@@ -31,14 +36,14 @@
     }
   });
 
-  // Set initial aria labels
+  // Set initial aria labels (match page language)
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme === "dark") {
-    lamp.setAttribute("aria-label", "Ativar modo claro");
-    lamp.setAttribute("title", "Ativar modo claro");
+    lamp.setAttribute("aria-label", themeLabels.toLight);
+    lamp.setAttribute("title", themeLabels.toLight);
   } else {
-    lamp.setAttribute("aria-label", "Ativar modo escuro");
-    lamp.setAttribute("title", "Ativar modo escuro");
+    lamp.setAttribute("aria-label", themeLabels.toDark);
+    lamp.setAttribute("title", themeLabels.toDark);
   }
 
   // Blur the content when the menu is open with better performance
