@@ -84,7 +84,6 @@ GEM
     tzinfo-data (1.2026.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    wdm (0.2.0)
     webrick (1.9.2)
 
 PLATFORMS
@@ -96,7 +95,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   tzinfo-data
-  wdm
   webrick
 
 BUNDLED WITH
