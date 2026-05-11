@@ -28,7 +28,7 @@ No dia a dia de engenharia, aplico ferramentas e práticas de IA para acelerar d
 
 **Engenheiro de Software Pleno** · Jul/2025 – Atual
 
-- Atualmente atuo em projeto do setor financeiro com foco em desenvolvimento frontend utilizando Angular
+- Atualmente atuo em projeto do setor financeiro com foco em desenvolvimento frontend utilizando Angular e Liferay DXP
 - Desenvolvo landing pages com foco em performance, SEO, componentização, responsividade e integração com analytics
 - Estruturei componentes reutilizáveis e integração com design system, garantindo consistência e escalabilidade entre páginas
 - Desenvolvi integrações com APIs e formulários com validações robustas, apoiando fluxos de conversão e captura de dados

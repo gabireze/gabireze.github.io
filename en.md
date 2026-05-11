@@ -28,7 +28,7 @@ In day-to-day engineering work, applies AI tools and practices to accelerate dev
 
 **Mid-Level Software Engineer** · Jul/2025 – Present
 
-- Currently working on a financial sector project focused on frontend development with Angular
+- Currently working on a financial sector project focused on frontend development with Angular Liferay DXP
 - Developing landing pages focused on performance, SEO, componentization, responsiveness, and analytics integration
 - Structured reusable components and design system integration, ensuring consistency and scalability across pages
 - Built integrations with APIs and forms with robust validation, supporting conversion flows and reliable data capture
