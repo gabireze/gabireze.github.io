@@ -14,11 +14,13 @@ keywords: "Gabriel de Rezende Gonçalves, full stack software engineer, Angular,
 
 ## Professional Summary
 
-Full Stack Software Engineer focused on scalable systems, solution architecture, and complex integrations. Holds a Bachelor's degree in Software Engineering from PUC Campinas and an MBA in Solution Architecture from FIAP, with academic focus on enterprise architecture, TOGAF, microservices, multicloud, security, data architecture for GenAI, and the strategic use of AI in corporate environments.
+Full Stack Software Engineer with experience in scalable systems, complex integrations, and solution architecture. I hold a Bachelor's degree in Software Engineering from PUC Campinas and completed an MBA in Solution Architecture at FIAP, with a focus on enterprise architecture, microservices, multicloud, security, GenAI data foundations, and the strategic use of AI in corporate environments.
 
-Has worked for several years in technology consulting, delivering solutions across different business contexts, ranging from white-label platforms and marketplaces to enterprise architectures, legacy integrations, APIs, process automation, and high-reliability systems. Builds applications with Angular, Vue.js, Laravel, Python, and TypeScript, with a strong focus on performance, code quality, and sustainable product evolution.
+I work in technology consulting, contributing to projects across different business contexts, including white-label solutions, marketplaces, enterprise systems, legacy integrations, APIs, and process automation. My main stack includes Angular, Vue.js, Laravel, Node.js, Python, and TypeScript, with a focus on performance, code quality, and sustainable product evolution.
 
-In day-to-day engineering work, applies AI tools and practices to accelerate development, review, and documentation, always with human validation, proper governance, and attention to confidentiality. Also works on frontend development with Angular, including landing pages focused on performance, SEO, componentization, accessibility, and analytics.
+I have experience with API development, distributed systems, modern interfaces, automated testing, CI/CD, observability, and technical documentation. I also apply AI tools and practices to engineering workflows to accelerate development, review, and documentation, always with human validation, proper governance, and attention to confidentiality.
+
+I am interested in opportunities involving software engineering, solution architecture, scalable platforms, AI applied to engineering, and full stack development.
 
 ---
 
@@ -26,67 +28,89 @@ In day-to-day engineering work, applies AI tools and practices to accelerate dev
 
 ### Levva
 
-**Mid-Level Software Engineer** · Jul/2025 – Present
+#### Mid-Level Software Engineer · Jul/2025 – Present
 
-- Currently working on a financial sector project focused on frontend development with Angular Liferay DXP
-- Developing landing pages focused on performance, SEO, componentization, responsiveness, and analytics integration
-- Structured reusable components and design system integration, ensuring consistency and scalability across pages
-- Built integrations with APIs and forms with robust validation, supporting conversion flows and reliable data capture
-- Using AI-assisted practices in the engineering workflow to improve productivity, review, and documentation, without disclosing sensitive client information
-- Previously developed an Agricultural Machinery Insurance module in a full stack architecture using Laravel/PHP, Angular, and legacy system integrations
-- Automated bidirectional synchronization with legacy systems, eliminating around 20 hours per week of manual work
-- Implemented a multi-tenant architecture with licensing, regional business rules, and support for multi-year insurance policies
-- Built a quotation system with configurable draft expiration and automations, reducing data loss by 40%
-- Developed 40+ REST endpoints documented with Swagger/OpenAPI and optimized Azure CI/CD pipelines, reducing build time by 40% and memory usage by 50%
+Software engineering role in consulting projects for clients in the financial market infrastructure and insurance sectors, focused on frontend development, integrations, solution architecture, performance, and the evolution of enterprise systems.
 
----
+##### Current project: B3
 
-### Encora Inc.
+- Frontend development for B3, Brazil's stock exchange and one of the country's leading financial market infrastructure companies
+- Working with Angular and Liferay DXP to evolve corporate interfaces, landing pages, and digital experiences
+- Development of pages focused on performance, SEO, responsiveness, componentization, and analytics integration
+- Structuring reusable components and integrating them with a design system, ensuring visual consistency and scalability across pages
+- Integration with APIs, forms, and robust validations to support conversion flows, institutional communication, and data capture
+- Responsible use of AI tools in the engineering workflow to accelerate development, review, and documentation, with human validation and attention to confidentiality
 
-**Junior Software Engineer** · Jan/2023 – Apr/2025
+##### Previous project: Alper Seguros
 
-- Developed full stack solutions for a global academic exchange platform
-- Designed and implemented REST APIs using Python, FastAPI, SQLAlchemy, and PostgreSQL
-- Built modern interfaces with Vue.js and TypeScript, with a focus on user experience and accessibility
-- Refactored legacy Laravel systems, improving performance and maintainability
-- Implemented automated tests with Pytest and Playwright
-- Participated actively in code reviews and technical architecture decisions
+- Development of an Agricultural Machinery Insurance module for Alper Seguros, one of Brazil's largest insurance brokers
+- Worked in a full stack architecture using Laravel/PHP, Angular, and integrations with legacy systems
+- Automated bidirectional synchronization with a legacy system, eliminating approximately 20 hours per week of manual work
+- Implemented a multi-tenant architecture with licensing, regional pricing rules, and support for multi-year insurance policies
+- Developed a quotation system with drafts, configurable expiration, and automations, reducing data loss by 40%
+- Developed 40+ REST endpoints documented with Swagger/OpenAPI and optimized the CI/CD pipeline in Azure, reducing build time by 40% and memory usage by 50%
 
 ---
 
 ### Encora Inc.
 
-**Software Development Intern** · Feb/2021 – Jan/2023
+#### Junior Software Engineer · Jan/2023 – Apr/2025
 
-- Developed internal corporate solutions with Node.js, Python, Vue.js, and React
-- Implemented APIs and integrations with PostgreSQL and MySQL
-- Built responsive web applications focused on usability and maintainability
-- Produced technical documentation with Swagger, improving integration and onboarding
-- Helped standardize repositories and engineering practices
+Worked on a project for API, Academic Programs International, a U.S.-based international education company, contributing to digital platforms focused on managing study abroad programs, international internships, and global educational experiences for students.
 
----
+Developed and maintained full stack solutions in a microservices architecture, focused on APIs, distributed systems, web applications, integrations, code quality, and continuous product evolution.
 
-### SuperOpa
+- Developed and integrated RESTful APIs using Python, FastAPI, SQLAlchemy, PostgreSQL, and Alembic, supporting the evolution of scalable and versioned backend services
+- Built and consumed independent services in a distributed ecosystem, focusing on modularity, system integration, and security
+- Developed frontend features with Vue.js, Composition API, JavaScript, and TypeScript, creating interfaces integrated with APIs and business workflows
+- Maintained, refactored, and evolved legacy PHP/Laravel systems, integrating them with modern services and improving the overall codebase
+- Managed development environments with Docker and Docker Compose, contributing to greater consistency across local, staging, and production environments
+- Wrote and maintained automated tests with Pytest for backend services and Playwright for frontend flows, improving delivery reliability across multiple environments
+- Implemented performant and customized search experiences with Algolia, improving information retrieval within the application
+- Actively contributed to agile squads using Scrum, participating in technical refinements, code reviews, development standards, and architectural decisions
+- Used GitHub, Jira, and Trello for version control, task management, technical collaboration, and delivery tracking
 
-**Software Development Intern** · Jun/2019 – Feb/2021
+#### Software Development Intern · Feb/2021 – Jan/2023
 
-- Developed a marketplace platform using Vue.js for web and Flutter for mobile
-- Built microservice-based APIs with Node.js
-- Integrated AWS services including Lambda, API Gateway, SQS, CloudWatch, and DynamoDB
-- Produced technical documentation and collaborated with product and business teams
-- Worked in a startup environment focused on fast delivery and continuous product evolution
+Worked on the development of internal solutions focused on modern architecture, scalable APIs, and web applications, using technologies widely adopted in the corporate environment. Contributed to internal projects and technical initiatives with an emphasis on best practices, scalability, and system integration.
+
+- Developed RESTful APIs using Node.js and Python (FastAPI), integrating with PostgreSQL and MySQL databases
+- Implemented authentication and business logic using Firebase (Auth, Realtime Database, Firestore)
+- Built web applications with Vue.js and React, focusing on componentization and API integration
+- Used Swagger for service documentation and supported team integration
+- Collaborated on repository organization, code standardization, and technical requirement validation across multiple internal projects
 
 ---
 
 ### OpaBox
 
-**Software Development Intern** · Jun/2019 – Feb/2021
+#### Software Development Intern · Jun/2019 – Feb/2021
 
-- Developed white-label solutions for B2C e-commerce platforms
-- Built web and mobile applications with Vue.js and Flutter
-- Implemented serverless APIs with Node.js and AWS
-- Integrated external services for payments, logistics, and CRM
-- Customized flows and interfaces for multiple client needs
+Worked in a shared internship across projects from different companies within the same operational context, contributing to white-label solutions and digital platforms according to each product's demand.
+
+Responsible for developing white-label solutions for B2C e-commerce platforms, delivering customized apps and websites for companies across different industries.
+
+- Built web applications with Vue.js and mobile apps with Flutter, reusing components across multiple instances
+- Developed APIs with Node.js in a microservices architecture, using AWS services such as Lambda, API Gateway, SQS, CloudWatch, and DynamoDB
+- Adapted business logic, flows, and custom layouts according to each client's profile
+- Integrated external services and contributed to code standardization in a multidisciplinary team
+- Collaborated with technical and product teams to deliver scalable features under high demand
+
+---
+
+### SuperOpa
+
+#### Software Development Intern · Jun/2019 – Feb/2021
+
+Worked in a shared internship across projects from different companies within the same operational context, alternating deliveries according to product priorities and technical demands.
+
+Worked on the development of a multisector marketplace connecting distributors and retailers from segments such as supermarkets, pharmacies, and pet shops to end customers.
+
+- Developed web solutions with Vue.js and mobile apps with Flutter, integrating interfaces with Node.js backends in a microservices architecture
+- Built and consumed APIs using AWS Lambda, API Gateway, CloudWatch, SQS, and DynamoDB
+- Documented APIs with Swagger, supporting integration across frontend, backend, and product teams
+- Collaborated with product, design, and commercial teams to deliver business-aligned features
+- Worked in a startup environment with fast-paced deliveries, continuous feedback, and customer-oriented solutions
 
 ---
 
@@ -130,21 +154,21 @@ Git, GitHub, GitLab, Jira, Trello, Confluence, Notion, Figma, Scrum, Kanban, Swa
 
 ### FIAP – School of Informatics and Administration
 
-**MBA in Solution Architecture** · 2025 – 2026
+#### MBA in Solution Architecture · 2025 – 2026
 
 Focused on enterprise and solution architecture, TOGAF, microservices, enterprise integration, multicloud, FinOps, security, data architecture for GenAI, and the strategic use of generative AI in architecture.
 
 ### PUC Campinas
 
-**Bachelor's Degree in Software Engineering** · 2019 – 2023
+#### Bachelor's Degree in Software Engineering · 2019 – 2023
 
 ### ETEC Bento Quirino
 
-**Technical High School in Computer Science** · 2016 – 2018
+#### Technical High School in Computer Science · 2016 – 2018
 
 ### Canadian College of English Language, Vancouver, Canada
 
-**Academic Exchange, Advanced English** · Jul/2022
+#### Academic Exchange, Advanced English · Jul/2022
 
 ---
 

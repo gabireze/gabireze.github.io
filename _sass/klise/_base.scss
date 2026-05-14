@@ -140,17 +140,18 @@ figcaption {
 // List
 ul {
   list-style: none;
+  margin-left: 0;
   li {
-    display: list-item;
+    display: block;
+    position: relative;
+    padding-left: 1.1em;
     text-align: -webkit-match-parent;
   }
   li::before {
-    content: "\FE63";
-    display: inline-block;
-    top: -1px;
-    width: 1.2em;
-    position: relative;
-    margin-left: -1.3em;
+    content: "-";
+    position: absolute;
+    left: 0;
+    top: 0;
     font-weight: 700;
   }
 }
