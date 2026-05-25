@@ -46,7 +46,6 @@ sass:
 
 # Plugins ativos
 plugins:
-  - jekyll-sitemap
   - jekyll-redirect-from
 
 # Compressão de HTML melhorada

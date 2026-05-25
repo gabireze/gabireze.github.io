@@ -5,6 +5,8 @@ role: "Full Stack Software Engineer"
 subtitle: "Angular, Vue.js, Laravel, Python, solution architecture, and AI applied to engineering"
 cover-img: /assets/img/social-preview.png
 lang: en
+redirect_from:
+  - /en.html
 seo_title: "Gabriel de Rezende Gonçalves | Full Stack Software Engineer | Angular, Laravel, Python | MBA FIAP"
 description: "Full stack software engineer: Angular, Vue.js, Laravel, Python. MBA in Solution Architecture (FIAP). Enterprise architecture, GenAI, integrations. Brazil."
 keywords: "Gabriel de Rezende Gonçalves, full stack software engineer, Angular, Laravel, Python, Vue.js, generative AI, RAG, TOGAF, MBA FIAP, multicloud, FinOps, Brazil, REST APIs"
