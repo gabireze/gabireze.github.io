@@ -1,26 +1,26 @@
 ---
 layout: home
 title: "Gabriel de Rezende Gonçalves"
-role: "Full Stack Software Engineer"
-subtitle: "Angular, Vue.js, Laravel, Python, solution architecture, and AI applied to engineering"
+role: "Senior Software Engineer"
+subtitle: "React, TypeScript, AI-native engineering, solution architecture, and full stack development"
 cover-img: /assets/img/social-preview.png
 lang: en
 redirect_from:
   - /en.html
-seo_title: "Gabriel de Rezende Gonçalves | Full Stack Software Engineer | Angular, Laravel, Python | MBA FIAP"
-description: "Full stack software engineer: Angular, Vue.js, Laravel, Python. MBA in Solution Architecture (FIAP). Enterprise architecture, GenAI, integrations. Brazil."
-keywords: "Gabriel de Rezende Gonçalves, full stack software engineer, Angular, Laravel, Python, Vue.js, generative AI, RAG, TOGAF, MBA FIAP, multicloud, FinOps, Brazil, REST APIs"
+seo_title: "Gabriel de Rezende Gonçalves | Senior Software Engineer | React, TypeScript and AI"
+description: "Senior Software Engineer experienced in React, TypeScript, full stack systems, solution architecture, and AI-native engineering with agents, BMAD, and MCP."
+keywords: "Gabriel de Rezende Gonçalves, senior software engineer, React, TypeScript, .NET, AI-native engineering, AI agents, BMAD, MCP, solution architecture, full stack development, REST APIs"
 ---
 
 [← Versão em português](/)
 
 ## Professional Summary
 
-Full Stack Software Engineer with experience in scalable systems, complex integrations, and solution architecture. I hold a Bachelor's degree in Software Engineering from PUC Campinas and completed an MBA in Solution Architecture at FIAP, with a focus on enterprise architecture, microservices, multicloud, security, GenAI data foundations, and the strategic use of AI in corporate environments.
+Senior Software Engineer experienced in scalable systems, modern interfaces, complex integrations, and solution architecture. I hold a Bachelor's degree in Software Engineering from PUC Campinas and completed an MBA in Solution Architecture at FIAP, with a focus on enterprise architecture, microservices, multicloud, security, GenAI data foundations, and the strategic use of AI in corporate environments.
 
-I work in technology consulting, contributing to projects across different business contexts, including white-label solutions, marketplaces, enterprise systems, legacy integrations, APIs, and process automation. My main stack includes Angular, Vue.js, Laravel, Node.js, Python, and TypeScript, with a focus on performance, code quality, and sustainable product evolution.
+I work in technology consulting, contributing to projects across different business contexts, including enterprise platforms, white-label solutions, marketplaces, legacy integrations, APIs, and process automation. My experience combines frontend and full stack development with React, Angular, TypeScript, .NET, Laravel, Node.js, and Python, with a focus on performance, code quality, and sustainable product evolution.
 
-I have experience with API development, distributed systems, modern interfaces, automated testing, CI/CD, observability, and technical documentation. I also apply AI tools and practices to engineering workflows to accelerate development, review, and documentation, always with human validation, proper governance, and attention to confidentiality.
+I currently work on a project that adopts an AI-native engineering approach, using AI agents throughout the development lifecycle. The workflow combines BMAD, specialized skills, structured documentation, and MCP integrations to support analysis, planning, architecture, implementation, testing, review, and documentation, always with human validation, governance, and careful attention to confidentiality.
 
 I am interested in opportunities involving software engineering, solution architecture, scalable platforms, AI applied to engineering, and full stack development.
 
@@ -30,27 +30,31 @@ I am interested in opportunities involving software engineering, solution archit
 
 ### Levva
 
-#### Mid-Level Software Engineer · Jul/2025 – Present
+#### Senior Software Engineer · Aug/2026 – Present
 
-Software engineering role in consulting projects for clients in the financial market infrastructure and insurance sectors, focused on frontend development, integrations, solution architecture, performance, and the evolution of enterprise systems.
+Working on a project for GoodStorage, contributing to the development of an internal enterprise platform focused on digitizing and evolving operational processes. The solution combines a modular .NET architecture, a React frontend, and an AI-native engineering approach.
 
-##### Current project: B3
+- End-to-end feature development, primarily focused on frontend engineering with React, TypeScript, Vite, and React Query. Building complex interfaces, reusable components, and forms with React Hook Form and Yup, using shadcn/ui, Radix UI, and CSS Modules to deliver accessible, responsive, and visually consistent experiences.
+- API integration through a BFF layer and collaboration within an ecosystem based on ASP.NET Core, .NET Aspire, PostgreSQL, Redis, RabbitMQ, and event-driven architecture. Participation in technical refinements, code reviews, engineering standards, and architectural decisions alongside product, design, and backend teams.
+- Working in an AI-native workflow where AI agents support requirements analysis, specifications, planning, architecture, implementation, testing, review, documentation, QA, and retrospectives. BMAD is used to transform business needs into technical artifacts and structured deliveries.
+- Using and evolving agents contextualized through project rules, specialized skills, documentation, and structured specifications. MCP integrations connect agents to tools and context sources, while Vitest, Testing Library, Playwright, human validation, and technical review support delivery quality.
 
-- Frontend development for B3, Brazil's stock exchange and one of the country's leading financial market infrastructure companies
-- Working with Angular and Liferay DXP to evolve corporate interfaces, landing pages, and digital experiences
-- Development of pages focused on performance, SEO, responsiveness, componentization, and analytics integration
-- Structuring reusable components and integrating them with a design system, ensuring visual consistency and scalability across pages
-- Integration with APIs, forms, and robust validations to support conversion flows, institutional communication, and data capture
-- Responsible use of AI tools in the engineering workflow to accelerate development, review, and documentation, with human validation and attention to confidentiality
+#### Mid-Level Software Engineer · Jul/2025 – Aug/2026
 
-##### Previous project: Alper Seguros
+Worked on consulting projects for clients in the financial and insurance sectors, contributing to requirements analysis, technical refinement, solution design, development, integration, and the evolution of enterprise systems.
 
-- Development of an Agricultural Machinery Insurance module for Alper Seguros, one of Brazil's largest insurance brokers
-- Worked in a full stack architecture using Laravel/PHP, Angular, and integrations with legacy systems
-- Automated bidirectional synchronization with a legacy system, eliminating approximately 20 hours per week of manual work
-- Implemented a multi-tenant architecture with licensing, regional pricing rules, and support for multi-year insurance policies
-- Developed a quotation system with drafts, configurable expiration, and automations, reducing data loss by 40%
-- Developed 40+ REST endpoints documented with Swagger/OpenAPI and optimized the CI/CD pipeline in Azure, reducing build time by 40% and memory usage by 50%
+##### Client: B3
+
+- Developed enterprise interfaces, landing pages, and digital experiences with Angular and Liferay DXP, translating business and design requirements into responsive, performant, and reusable solutions.
+- Structured design system components and implemented forms, validations, and API integrations supporting conversion flows, institutional communication, and data capture, with SEO, analytics, and performance optimization.
+- Contributed to the evolution of the frontend architecture and responsibly used AI to support analysis, development, code review, and documentation.
+
+##### Client: Alper Seguros
+
+- Full stack development of an Agricultural Machinery Insurance module with Angular, Laravel/PHP, and REST APIs, covering interfaces, business rules, data persistence, and external integrations.
+- Implemented bidirectional synchronization with a legacy system, eliminating approximately 20 hours of manual work per week, as well as a multi-tenant architecture with licensing, regional configurations, and multi-year insurance policies.
+- Built a quotation system with drafts, configurable expiration, and automation, reducing data loss by 40%. Developed more than 40 REST endpoints documented with Swagger/OpenAPI.
+- Optimized the Azure CI/CD pipeline, reducing build time by 40% and memory usage by 50%.
 
 ---
 
@@ -140,7 +144,7 @@ PostgreSQL, MySQL, SQLite, MongoDB, DynamoDB, Firestore, Redis, Kafka, SQLAlchem
 
 ### AI, analytics, and automation
 
-Generative models and LLMs in engineering workflows, RAG and knowledge bases, MCP-based integration, ML applied to products, AI-assisted automation, and data analysis for decision-making.
+AI-native engineering, AI agents, BMAD, specialized skills, Model Context Protocol (MCP), generative models and LLMs in engineering workflows, RAG, knowledge bases, AI-assisted automation, and data analysis for decision-making.
 
 ### Testing, quality, and observability
 

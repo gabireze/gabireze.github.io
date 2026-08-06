@@ -5,7 +5,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-gabireze-181717?style=for-the-badge&logo=github)](https://github.com/gabireze)
 [![Email](https://img.shields.io/badge/Email-contato@gabireze.com.br-D14836?style=for-the-badge&logo=gmail)](mailto:contato@gabireze.com.br)
 
-> **Full stack software engineer · Angular, Laravel, Python · MBA in Solution Architecture (FIAP) · scalable systems and integrations**
+> **Senior software engineer · React, TypeScript, AI-native engineering · solution architecture and full stack development**
 
 ## About This Repository
 
@@ -19,7 +19,7 @@ This repository contains the source code for my **personal website and professio
 
 ## About Me
 
-**Full stack software engineer** focused on **Angular**, **Laravel**, **Python**, integrations with legacy systems, and solution architecture.
+**Senior software engineer** focused on **React**, **TypeScript**, full stack development, solution architecture, and AI-native engineering with agents.
 
 - **Frontend:** Angular, Vue 3, React, TypeScript
 - **Backend:** Python (FastAPI), PHP (Laravel), Node.js
@@ -31,7 +31,7 @@ This repository contains the source code for my **personal website and professio
 - **Academic exchange** — Vancouver, Canada (2022)
 
 ### Current role
-**Software Engineer** at [Levva](https://levva.com.br) (Jul/2025 — present): consulting projects including **financial-sector** frontend (Angular, landing pages) and prior **full stack** delivery (e.g. Laravel, APIs, Azure CI/CD).
+**Senior Software Engineer** at [Levva](https://levva.com.br) (Aug/2026 — present), working on an internal enterprise platform for GoodStorage with **React**, **TypeScript**, a modular **.NET** ecosystem, and an AI-native development workflow using agents, BMAD, specialized skills, and MCP.
 
 ---
 

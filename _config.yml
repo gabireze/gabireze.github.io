@@ -1,7 +1,7 @@
 # Título curto para fallbacks (og:site_name, páginas sem seo_title). Páginas principais usam seo_title no front matter.
 title: Gabriel de Rezende Gonçalves
 description: >
-  Engenheiro de Software Full Stack: Angular, Vue.js, Laravel, Python (FastAPI), integrações e arquitetura de soluções. MBA em Arquitetura de Soluções (FIAP), com IA aplicada a produto e engenharia. Foco em performance, APIs e produtos escaláveis.
+  Engenheiro de Software Sênior com experiência em React, TypeScript, desenvolvimento full stack, arquitetura de soluções e engenharia AI-native com agentes, BMAD e MCP.
 lang: pt-BR
 timezone: America/Sao_Paulo
 image: /assets/img/social-preview.png
@@ -16,7 +16,7 @@ permalink: /:title/
 author:
   name: Gabriel de Rezende Gonçalves
   bio: >
-    Engenheiro de Software Full Stack | Angular, Vue.js, Laravel, Python | Arquitetura de soluções e integrações | MBA em Arquitetura de Soluções (FIAP)
+    Engenheiro de Software Sênior | React, TypeScript e desenvolvimento full stack | Arquitetura de soluções | Engenharia AI-native
   username: gabireze
   github: gabireze
   twitter: gabireze_
@@ -29,7 +29,7 @@ author:
 google_analytics: G-9K0SZYY1KR
 
 # Meta extras otimizadas para SEO
-keywords: Gabriel de Rezende Gonçalves, Software Engineer, Engenheiro de Software, Full Stack Developer, Angular, Vue.js, React, Laravel, Python FastAPI, Node.js, JavaScript, TypeScript, AWS, Azure, Cloud Computing, Microservices, API REST, PostgreSQL, MySQL, Docker, CI/CD, Agile, Scrum, FIAP, PUC Campinas
+keywords: Gabriel de Rezende Gonçalves, Senior Software Engineer, Engenheiro de Software Sênior, Full Stack Developer, React, Angular, TypeScript, .NET, Laravel, Python FastAPI, Node.js, AI-native Engineering, AI Agents, BMAD, MCP, Solution Architecture, API REST, PostgreSQL, Docker, CI/CD, Azure, FIAP, PUC Campinas
 favicon_location: /assets/favicons/favicon.ico
 default_lang: pt-BR
 

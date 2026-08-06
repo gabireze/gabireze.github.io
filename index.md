@@ -1,24 +1,24 @@
 ---
 layout: home
 title: "Gabriel de Rezende Gonçalves"
-role: "Engenheiro de Software Full Stack"
-subtitle: "Angular, Vue.js, Laravel, Python, arquitetura de soluções e IA aplicada à engenharia"
+role: "Engenheiro de Software Sênior"
+subtitle: "React, TypeScript, engenharia AI-native, arquitetura de soluções e desenvolvimento full stack"
 cover-img: /assets/img/social-preview.png
 lang: pt-BR
-seo_title: "Gabriel de Rezende Gonçalves | Engenheiro de Software Full Stack | Angular, Laravel, Python | MBA FIAP"
-description: "Engenheiro full stack: Angular, Vue.js, Laravel, Python. MBA em Arquitetura de Soluções (FIAP). Arquitetura corporativa, GenAI, integrações. Brasil."
-keywords: "Gabriel de Rezende Gonçalves, engenheiro de software full stack, Angular, Laravel, Python, Vue.js, IA generativa, RAG, TOGAF, MBA FIAP, multicloud, FinOps, desenvolvedor full stack Brasil, APIs REST"
+seo_title: "Gabriel de Rezende Gonçalves | Engenheiro de Software Sênior | React, TypeScript e IA"
+description: "Engenheiro de Software Sênior com experiência em React, TypeScript, sistemas full stack, arquitetura de soluções e engenharia AI-native com agentes, BMAD e MCP."
+keywords: "Gabriel de Rezende Gonçalves, engenheiro de software sênior, React, TypeScript, .NET, engenharia AI-native, agentes de IA, BMAD, MCP, arquitetura de soluções, desenvolvimento full stack, APIs REST"
 ---
 
 [English version →](./en)
 
 ## Resumo Profissional
 
-Engenheiro de Software Full Stack com experiência em sistemas escaláveis, integrações complexas e arquitetura de soluções. Sou bacharel em Engenharia de Software pela PUC Campinas e concluí MBA em Arquitetura de Soluções pela FIAP, com formação em arquitetura corporativa, microsserviços, multicloud, segurança, dados para GenAI e uso estratégico de IA em contextos corporativos.
+Engenheiro de Software Sênior com experiência em sistemas escaláveis, interfaces modernas, integrações complexas e arquitetura de soluções. Sou bacharel em Engenharia de Software pela PUC Campinas e concluí MBA em Arquitetura de Soluções pela FIAP, com formação em arquitetura corporativa, microsserviços, multicloud, segurança, dados para GenAI e uso estratégico de IA em contextos corporativos.
 
-Atuo em consultorias de tecnologia, contribuindo em projetos para diferentes contextos de negócio, incluindo soluções white-label, marketplaces, sistemas corporativos, integrações com legados, APIs e automação de processos. Trabalho principalmente com Angular, Vue.js, Laravel, Node.js, Python e TypeScript, com foco em performance, qualidade de código e evolução sustentável de produtos.
+Atuo em consultorias de tecnologia, contribuindo em projetos para diferentes contextos de negócio, incluindo plataformas corporativas, soluções white-label, marketplaces, integrações com legados, APIs e automação de processos. Minha experiência combina desenvolvimento frontend e full stack com React, Angular, TypeScript, .NET, Laravel, Node.js e Python, com foco em performance, qualidade de código e evolução sustentável de produtos.
 
-Tenho experiência com desenvolvimento de APIs, sistemas distribuídos, interfaces modernas, testes automatizados, CI/CD, observabilidade e documentação técnica. Também aplico ferramentas e práticas de IA no fluxo de engenharia para acelerar desenvolvimento, revisão e documentação, sempre com validação humana, governança adequada e cuidado com confidencialidade.
+Atualmente trabalho em um projeto que adota uma abordagem AI-native de engenharia, utilizando agentes de IA ao longo de todo o ciclo de desenvolvimento. O fluxo combina BMAD, skills especializadas, documentação estruturada e integrações via MCP para apoiar análise, planejamento, arquitetura, implementação, testes, revisão e documentação, sempre com validação humana, governança e atenção à confidencialidade.
 
 Tenho interesse em oportunidades envolvendo engenharia de software, arquitetura de soluções, plataformas escaláveis, IA aplicada à engenharia e desenvolvimento full stack.
 
@@ -28,27 +28,31 @@ Tenho interesse em oportunidades envolvendo engenharia de software, arquitetura 
 
 ### Levva
 
-#### Engenheiro de Software Pleno · Jul/2025 – Atual
+#### Engenheiro de Software Sênior · Ago/2026 – Atual
 
-Atuação como engenheiro de software em projetos de consultoria para clientes dos setores financeiro e de seguros, com foco em desenvolvimento frontend, integrações, arquitetura de soluções, performance e evolução de sistemas corporativos.
+Atuação em projeto para a GoodStorage, contribuindo para o desenvolvimento de uma plataforma corporativa interna voltada à digitalização e evolução de processos operacionais. A solução combina arquitetura modular em .NET, frontend em React e uma abordagem AI-native de engenharia.
 
-##### Projeto atual: B3
+- Desenvolvimento de funcionalidades de ponta a ponta, com foco no frontend utilizando React, TypeScript, Vite e React Query. Construção de interfaces complexas, componentes reutilizáveis e formulários com React Hook Form e Yup, aplicando shadcn/ui, Radix UI e CSS Modules com foco em acessibilidade, responsividade e consistência visual.
+- Integração com APIs por meio de uma camada BFF e colaboração com um ecossistema baseado em ASP.NET Core, .NET Aspire, PostgreSQL, Redis, RabbitMQ e arquitetura orientada a eventos. Participação em refinamentos, revisões de código, definição de padrões e decisões arquiteturais com produto, design e backend.
+- Atuação em um fluxo AI-native com agentes de IA apoiando análise de requisitos, especificações, planejamento, arquitetura, implementação, testes, revisão, documentação, QA e retrospectivas. Utilização do BMAD para transformar necessidades de negócio em artefatos técnicos e entregas estruturadas.
+- Utilização e evolução de agentes contextualizados por regras do projeto, skills, documentação e especificações estruturadas. Integrações via MCP conectam os agentes a ferramentas e fontes de contexto, enquanto Vitest, Testing Library, Playwright, validação humana e revisão técnica apoiam a qualidade das entregas.
 
-- Desenvolvimento frontend em projeto para a B3, a bolsa do Brasil e uma das principais empresas de infraestrutura do mercado financeiro
-- Atuação com Angular e Liferay DXP na evolução de interfaces corporativas, landing pages e experiências digitais
-- Desenvolvimento de páginas com foco em performance, SEO, responsividade, componentização e integração com ferramentas de analytics
-- Estruturação de componentes reutilizáveis e integração com design system, garantindo consistência visual e escalabilidade entre páginas
-- Integração com APIs, formulários e validações robustas para apoiar fluxos de conversão, comunicação institucional e captura de dados
-- Aplicação responsável de ferramentas de IA no fluxo de engenharia para acelerar desenvolvimento, revisão e documentação, com validação humana e atenção à confidencialidade
+#### Engenheiro de Software Pleno · Jul/2025 – Ago/2026
 
-##### Projeto anterior: Alper Seguros
+Atuação em projetos de consultoria para clientes dos setores financeiro e de seguros, participando da análise de requisitos, refinamentos técnicos, definição de soluções, desenvolvimento, integração e evolução de sistemas corporativos.
 
-- Desenvolvimento de módulo de Seguros de Máquinas Agrícolas para a Alper Seguros, uma das maiores corretoras de seguros do Brasil
-- Atuação em arquitetura full stack com Laravel/PHP, Angular e integrações com sistemas legados
-- Automação de sincronização bidirecional com sistema legado, eliminando cerca de 20 horas por semana de trabalho manual
-- Implementação de arquitetura multi-tenant com licenciamento, regras regionais e suporte a seguros plurianuais
-- Desenvolvimento de sistema de cotações com rascunhos, expiração configurável e automações, reduzindo perda de dados em 40%
-- Desenvolvimento de 40+ endpoints REST documentados com Swagger/OpenAPI e otimização de pipeline CI/CD no Azure, reduzindo tempo de build em 40% e uso de memória em 50%
+##### Cliente: B3
+
+- Desenvolvimento de interfaces corporativas, landing pages e experiências digitais com Angular e Liferay DXP, transformando requisitos de negócio e design em soluções responsivas, performáticas e reutilizáveis.
+- Estruturação de componentes integrados ao design system, implementação de formulários, validações e APIs para fluxos de conversão, comunicação institucional e captura de dados, com aplicação de SEO, analytics e otimizações de performance.
+- Participação na evolução da arquitetura frontend e utilização responsável de IA para apoiar análise, desenvolvimento, revisão de código e documentação.
+
+##### Cliente: Alper Seguros
+
+- Desenvolvimento full stack de um módulo de Seguros de Máquinas Agrícolas com Angular, Laravel/PHP e APIs REST, abrangendo interfaces, regras de negócio, persistência e integrações externas.
+- Implementação de sincronização bidirecional com sistema legado, eliminando cerca de 20 horas semanais de trabalho manual, e de arquitetura multi-tenant com licenciamento, configurações regionais e seguros plurianuais.
+- Construção de sistema de cotações com rascunhos, expiração configurável e automações, reduzindo a perda de dados em 40%. Desenvolvimento de mais de 40 endpoints documentados com Swagger/OpenAPI.
+- Otimização do pipeline CI/CD no Azure, reduzindo o tempo de build em 40% e o consumo de memória em 50%.
 
 ---
 
@@ -138,7 +142,7 @@ PostgreSQL, MySQL, SQLite, MongoDB, DynamoDB, Firestore, Redis, Kafka, SQLAlchem
 
 ### IA, analytics e automação
 
-Modelos generativos e LLMs no fluxo de engenharia, RAG e bases de conhecimento, integração via MCP, ML aplicado a produto, automação assistida por IA e análise de dados para decisão.
+Engenharia AI-native, agentes de IA, BMAD, skills especializadas, Model Context Protocol (MCP), modelos generativos e LLMs no fluxo de engenharia, RAG, bases de conhecimento, automação assistida por IA e análise de dados para decisão.
 
 ### Testes, qualidade e observabilidade
 
